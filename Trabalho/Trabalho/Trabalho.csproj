@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="enums\EUserType.cs" />
     <Compile Include="interfaces\IUser.cs" />
     <Compile Include="models\Vendedor.cs" />
     <Compile Include="models\Cliente.cs" />

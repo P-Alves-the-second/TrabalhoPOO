@@ -14,6 +14,6 @@ namespace Trabalho.interfaces
         string Password { get; set; }
 
         User LogIn(User[] UserList,string email,string password);
-        User Register(string name,string email,string password);
+        bool Register(List<User> UserList);
     }
 }

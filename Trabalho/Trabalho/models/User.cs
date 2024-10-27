@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trabalho.enums;
 using Trabalho.interfaces;
 
 namespace Trabalho.models
@@ -12,6 +13,8 @@ namespace Trabalho.models
         private string name { get; set; }
         private string email { get; set; }
         private string password { get; set; }
+
+        private EUserType usertype { get; set; } 
 
         public string Name  
         {
@@ -29,6 +32,12 @@ namespace Trabalho.models
             set => password = value;
         }
 
+        public EUserType UserType 
+        { 
+            get => usertype;
+            set => usertype = value;
+        }
+
         public User LogIn(User[] UserList,string email,string password) 
         {
             foreach (User user in UserList) 
@@ -38,7 +47,14 @@ namespace Trabalho.models
             return null;
         }
 
-        public virtual User Register(string name, string email, string password) { return null; }
+        public virtual bool Register(List<User> UserList) { return false; }
 
+        public User(string name, string email, string password,EUserType usertype)
+        {
+            Name = name;
+            Email = email;
+            Password = password;
+            UserType = usertype;
+        }
     }
 }
