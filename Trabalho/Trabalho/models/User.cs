@@ -55,7 +55,7 @@ namespace Trabalho.models
             return null;
         }
 
-        public virtual Hashtable Register(Hashtable UserList) { return null; }
+        public abstract Hashtable Register(Hashtable UserList);
 
         public User(string name, string email, string password,int iduser,EUserType usertype)
         {

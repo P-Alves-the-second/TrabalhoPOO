@@ -13,8 +13,5 @@ namespace Trabalho.interfaces
         string Name { get; set; }
         string Email { get; set; }
         string Password { get; set; }
-
-        User LogIn(User[] UserList,string email,string password);
-        Hashtable Register(Hashtable UserList);
     }
 }

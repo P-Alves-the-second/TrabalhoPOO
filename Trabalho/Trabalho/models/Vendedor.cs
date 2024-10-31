@@ -25,21 +25,6 @@ namespace Trabalho.models
 
         public Hashtable AddNewProduct(Hashtable ProductList,Hashtable MarcaList,int productid,int marcaid, int price, string nome, string descricao, int stock, CategoriaProduto categoria) 
         {
-            foreach(DictionaryEntry entry in MarcaList) 
-            {
-                Marca marca = (Marca)MarcaList[entry.Key];
-                if (marcaid == marca.IdMarca) break;
-                throw new IDNotFoundException("Marca Não encontrada");
-            }
-
-            Produto NovoProduto = new Produto(this.IdUser,productid,marcaid,price,nome,descricao,stock,categoria);
-            ProductList.Add(NovoProduto.ProductId,NovoProduto);
-
-            this.products.Add(NovoProduto.ProductId);
-
-            Marca marca2 = (Marca)MarcaList[marcaid];
-            marca2.products.Add(productid);
-
             return ProductList;
         }
 
