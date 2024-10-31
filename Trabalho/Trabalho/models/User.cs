@@ -46,17 +46,6 @@ namespace Trabalho.models
             set => iduser = value;
         }
 
-        public User LogIn(User[] UserList,string email,string password) 
-        {
-            foreach (User user in UserList) 
-            {
-                if (user.Email == email && user.Password == password) return user;
-            }
-            return null;
-        }
-
-        public abstract Hashtable Register(Hashtable UserList);
-
         public User(string name, string email, string password,int iduser,EUserType usertype)
         {
             this.name = name;

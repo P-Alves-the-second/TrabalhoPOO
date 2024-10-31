@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\User.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\User.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\User.cs",
               "RelativeToolTip": "Trabalho\\models\\User.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAUwDYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAywDYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:25:02.641Z",
               "IsPinned": true,
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IDNotFound.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\IDNotFound.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\IDNotFound.cs",
@@ -89,8 +89,7 @@
               "RelativeToolTip": "Trabalho\\models\\Marca.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:09:22.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T15:09:22.549Z"
             },
             {
               "$type": "Document",
@@ -106,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Produto.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\Produto.cs",
@@ -114,8 +113,7 @@
               "RelativeToolTip": "Trabalho\\models\\Produto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwEYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:24:58.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T14:24:58.288Z"
             },
             {
               "$type": "Document",
@@ -131,26 +129,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Vendedor.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Vendedor.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\Vendedor.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Vendedor.cs",
               "RelativeToolTip": "Trabalho\\models\\Vendedor.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:55:47.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Cliente.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\Cliente.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Cliente.cs",
               "RelativeToolTip": "Trabalho\\models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:55:03.292Z",
               "EditorCaption": ""
@@ -169,13 +167,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\Program.cs",
               "RelativeDocumentMoniker": "Trabalho\\Program.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\Program.cs",
               "RelativeToolTip": "Trabalho\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T17:41:58.143Z",
               "EditorCaption": ""
