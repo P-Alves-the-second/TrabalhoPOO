@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,6 @@ namespace Trabalho.interfaces
         string Password { get; set; }
 
         User LogIn(User[] UserList,string email,string password);
-        bool Register(List<User> UserList);
+        Hashtable Register(Hashtable UserList);
     }
 }

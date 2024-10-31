@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Trabalho.models;
 
 using Trabalho.enums;
+using System.Collections;
 
 namespace Trabalho
 {
@@ -13,13 +14,19 @@ namespace Trabalho
     {
         static void Main(string[] args)
         {
-            List<User> UserList = new List<User>();
-            Vendedor ve = new Vendedor("wdsc","vcwd","vef");
-            if(ve.Register(UserList))UserList.Add(ve);
-            foreach (User user in UserList) 
+            Hashtable UserList = new Hashtable();
+            Hashtable ProductList = new Hashtable();
+
+            Vendedor Ven = new Vendedor("Pedro","Pedro@Alves","password",1);
+            Vendedor Ven2 = new Vendedor("Miguel", "Pedro@Alves","passswroerd",2);
+            UserList = Ven.Register(UserList);
+            UserList = Ven2.Register(UserList);
+            foreach(DictionaryEntry entry in UserList) 
             {
+                User user = (User)UserList[entry.Key];
                 Console.WriteLine($"{user.Name}");
             }
+            Ven.ShowProductList(ProductList);
             Console.ReadLine();
         }
     }

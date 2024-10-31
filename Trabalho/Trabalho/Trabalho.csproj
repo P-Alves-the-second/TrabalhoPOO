@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="enums\EUserType.cs" />
+    <Compile Include="enums\CategoriaProduto.cs" />
     <Compile Include="interfaces\IUser.cs" />
+    <Compile Include="models\IDNotFound.cs" />
+    <Compile Include="models\Marca.cs" />
+    <Compile Include="models\Produto.cs" />
     <Compile Include="models\Vendedor.cs" />
     <Compile Include="models\Cliente.cs" />
     <Compile Include="models\User.cs" />

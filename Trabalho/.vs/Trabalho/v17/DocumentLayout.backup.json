@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\idnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\enums\\eusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\enums\\eusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\enums\\categoriaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\enums\\categoriaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|c:\\users\\pedro\\trabalhopoo\\trabalho\\trabalho\\enums\\eusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C501BD41-0429-4250-8E56-514E1494AAE6}|Trabalho\\Trabalho.csproj|solutionrelative:trabalho\\enums\\eusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\User.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\User.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\User.cs",
               "RelativeToolTip": "Trabalho\\models\\User.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvzEAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwDYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:25:02.641Z",
               "IsPinned": true,
@@ -52,7 +68,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "IDNotFound.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\IDNotFound.cs",
+              "RelativeDocumentMoniker": "Trabalho\\models\\IDNotFound.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\IDNotFound.cs",
+              "RelativeToolTip": "Trabalho\\models\\IDNotFound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:38:06.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Marca.cs",
+              "RelativeDocumentMoniker": "Trabalho\\models\\Marca.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Marca.cs",
+              "RelativeToolTip": "Trabalho\\models\\Marca.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:09:22.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriaProduto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\enums\\CategoriaProduto.cs",
+              "RelativeDocumentMoniker": "Trabalho\\enums\\CategoriaProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\enums\\CategoriaProduto.cs",
+              "RelativeToolTip": "Trabalho\\enums\\CategoriaProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:29:01.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Produto.cs",
+              "RelativeDocumentMoniker": "Trabalho\\models\\Produto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Produto.cs",
+              "RelativeToolTip": "Trabalho\\models\\Produto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwEYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:24:58.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EUserType.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\enums\\EUserType.cs",
               "RelativeDocumentMoniker": "Trabalho\\enums\\EUserType.cs",
@@ -60,57 +127,55 @@
               "RelativeToolTip": "Trabalho\\enums\\EUserType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T12:40:44.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T12:40:44.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Vendedor.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Vendedor.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\Vendedor.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Vendedor.cs",
               "RelativeToolTip": "Trabalho\\models\\Vendedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:55:47.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Cliente.cs",
               "RelativeDocumentMoniker": "Trabalho\\models\\Cliente.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\models\\Cliente.cs",
               "RelativeToolTip": "Trabalho\\models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:55:03.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "IUser.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\interfaces\\IUser.cs",
               "RelativeDocumentMoniker": "Trabalho\\interfaces\\IUser.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\interfaces\\IUser.cs",
               "RelativeToolTip": "Trabalho\\interfaces\\IUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:28:51.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T07:28:51.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\Program.cs",
               "RelativeDocumentMoniker": "Trabalho\\Program.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOO\\Trabalho\\Trabalho\\Program.cs",
               "RelativeToolTip": "Trabalho\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T17:41:58.143Z",
               "EditorCaption": ""

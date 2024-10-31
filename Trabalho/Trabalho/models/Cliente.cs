@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,16 +8,32 @@ using Trabalho.enums;
 
 namespace Trabalho.models
 {
-    internal class Cliente : User
+    public class Cliente : User
     {
-        public override bool Register(List<User> UserList)
+        private List<int> compras;
+        public override Hashtable Register(Hashtable UserList)
         {
             foreach (User user in UserList)
             {
-                if (user.Email == this.Email) return false;
+                if (user.Email == this.Email) return null;
             }
-            return true;
+            UserList.Add(this.IdUser,this);
+            return UserList;
         }
-        public Cliente(string Name, string Email, string Password) : base(Name, Email, Password, EUserType.Cliente) { }
+
+        public void ComprarProduto(Hashtable ProductList,int produtoid,int quantidade) 
+        {
+            foreach(DictionaryEntry entry in ProductList) 
+            {
+                Produto produto = (Produto)ProductList[entry.Key];
+                if(produto.ProductId == produtoid) 
+                {
+                    this.compras.Add(produto.ProductId);
+                    produto.Stock-=quantidade;
+                }
+                throw new IDNotFoundException("Produto não encontrado");
+            }
+        }
+        public Cliente(string Name, string Email, string Password,int IdUser) : base(Name, Email, Password,IdUser ,EUserType.Cliente) { }
     }
 }

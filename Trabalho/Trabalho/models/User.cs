@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace Trabalho.models
 {
     public abstract class User: IUser
     {
+        private int iduser {  get; set; }
         private string name { get; set; }
         private string email { get; set; }
         private string password { get; set; }
@@ -38,6 +40,12 @@ namespace Trabalho.models
             set => usertype = value;
         }
 
+        public int IdUser 
+        {
+            get => iduser;
+            set => iduser = value;
+        }
+
         public User LogIn(User[] UserList,string email,string password) 
         {
             foreach (User user in UserList) 
@@ -47,14 +55,15 @@ namespace Trabalho.models
             return null;
         }
 
-        public virtual bool Register(List<User> UserList) { return false; }
+        public virtual Hashtable Register(Hashtable UserList) { return null; }
 
-        public User(string name, string email, string password,EUserType usertype)
+        public User(string name, string email, string password,int iduser,EUserType usertype)
         {
-            Name = name;
-            Email = email;
-            Password = password;
-            UserType = usertype;
+            this.name = name;
+            this.email = email;
+            this.password = password;
+            this.iduser = iduser;
+            this.usertype = usertype;
         }
     }
 }
