@@ -1,0 +1,12 @@
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.AssemblyInfoInputs.cache
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.AssemblyInfo.cs
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.sourcelink.json
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\bin\Debug\net8.0\Interfaces_DLL.deps.json
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\bin\Debug\net8.0\Interfaces_DLL.dll
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\bin\Debug\net8.0\Interfaces_DLL.pdb
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.dll
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\refint\Interfaces_DLL.dll
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces_DLL.pdb
+C:\Users\pedro\Entrega1\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\ref\Interfaces_DLL.dll
