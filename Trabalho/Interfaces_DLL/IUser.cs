@@ -12,5 +12,7 @@ namespace Interfaces_DLL
         string Name { get; set; }
         string Email { get; set; }
         string Password { get; set; }
+
+        public virtual void MostrarDados() { }
     }
 }

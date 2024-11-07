@@ -18,7 +18,13 @@ namespace Model_DLL
         private string nome { get; set; }
         private string descricao { get; set; }
         private int stock {  get; set; }
+
+        private int garantia { get; set; }
+
+        private DateOnly datacompra {  get; set; }
         private CategoriaProduto categoria {  get; set; }
+
+        private GarantiaType garantiatype { get; set; }
 
         public int VendedorId 
         {
@@ -65,7 +71,25 @@ namespace Model_DLL
             set => categoria = value;
         }
 
-        public Produto(int vendedorid, int productid,int marcaid, int price, string nome, string descricao, int stock, CategoriaProduto categoria)
+        public DateOnly DataCompra 
+        {
+            get => datacompra;
+            set => datacompra = value;
+        }
+
+        public int Garantia 
+        {
+            get => garantia;
+            set => garantia = value;
+        }
+
+        public GarantiaType GarantiaType 
+        {
+            get => garantiatype;
+            set => garantiatype = value;
+        }
+
+        public Produto(int vendedorid, int productid,int marcaid, int price, string nome, string descricao, int stock, CategoriaProduto categoria, int garantia ,GarantiaType garantiaType)
         {
             this.vendedorid = vendedorid;
             this.productid = productid;
@@ -75,6 +99,8 @@ namespace Model_DLL
             this.descricao = descricao;
             this.stock = stock;
             this.categoria = categoria;
+            this.garantia = garantia;
+            this.garantiatype = garantiaType;
         }
 
         public void MostrarDados(Hashtable MarcaList) 

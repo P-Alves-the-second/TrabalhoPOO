@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Enums_DLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace Model_DLL
         private int campanhaid;
         private string nome;
         private string descricao;
+        private int desconto;
+        private DescontoType descontotype;
         
         public int CampanhaId 
         {
@@ -27,6 +30,24 @@ namespace Model_DLL
         {
             get => descricao;
             set => descricao = value;
+        }
+        public int Desconto 
+        {
+            get => desconto;
+            set => desconto = value;
+        }
+        public DescontoType DescontoType 
+        {
+            get => descontotype;
+            set => descontotype = value;
+        }
+
+        public Campanha(int CampanhaID,string Name,string Descricao,int Desconto,DescontoType descontoType) 
+        {
+            this.campanhaid = CampanhaID;
+            this.nome = Name;
+            this.descricao = Descricao;
+            this.descontotype = descontoType;
         }
     }
 }

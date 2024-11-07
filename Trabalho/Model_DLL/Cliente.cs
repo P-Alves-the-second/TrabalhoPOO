@@ -16,7 +16,7 @@ namespace Model_DLL
         public override void MostrarDados()
         {
             base.MostrarDados();
-            Console.WriteLine($"Tipo : {EUserType.Cliente}");
+            Console.WriteLine($"Tipo : {EUserType.Cliente} ");
         }
     }
 
