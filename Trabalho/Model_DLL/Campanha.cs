@@ -42,6 +42,14 @@ namespace Model_DLL
             set => descontotype = value;
         }
 
+        public Produto Produto
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public Campanha(int CampanhaID,string Name,string Descricao,int Desconto,DescontoType descontoType) 
         {
             this.campanhaid = CampanhaID;

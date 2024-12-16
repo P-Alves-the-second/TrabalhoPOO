@@ -21,7 +21,7 @@ namespace Model_DLL
 
         private int garantia { get; set; }
 
-        private DateOnly datacompra {  get; set; }
+        private DateTime datacompra {  get; set; }
         private CategoriaProduto categoria {  get; set; }
 
         private GarantiaType garantiatype { get; set; }
@@ -71,7 +71,7 @@ namespace Model_DLL
             set => categoria = value;
         }
 
-        public DateOnly DataCompra 
+        public DateTime DataCompra 
         {
             get => datacompra;
             set => datacompra = value;
@@ -87,6 +87,14 @@ namespace Model_DLL
         {
             get => garantiatype;
             set => garantiatype = value;
+        }
+
+        public Marca Marca
+        {
+            get => default;
+            set
+            {
+            }
         }
 
         public Produto(int vendedorid, int productid,int marcaid, int price, string nome, string descricao, int stock, CategoriaProduto categoria, int garantia ,GarantiaType garantiaType)
