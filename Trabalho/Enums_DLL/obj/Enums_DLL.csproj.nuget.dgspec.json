@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj": {}
+    "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj": {
+    "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj",
         "projectName": "Enums_DLL",
-        "projectPath": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj",
+        "projectPath": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Enums_DLL\\Enums_DLL.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Enums_DLL\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Enums_DLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

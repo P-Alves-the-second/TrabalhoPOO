@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Enums_DLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+918fc44f3622973070fc100b465aee6193355356")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca4cfa67bb354cc313cb99b4ca9ab0d7e6042d35")]
 [assembly: System.Reflection.AssemblyProductAttribute("Enums_DLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Enums_DLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

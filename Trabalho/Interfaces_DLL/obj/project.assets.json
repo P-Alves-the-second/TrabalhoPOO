@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces_DLL.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces_DLL.csproj",
       "projectName": "Interfaces_DLL",
-      "projectPath": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces_DLL.csproj",
+      "projectPath": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces_DLL.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\Entrega1\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
