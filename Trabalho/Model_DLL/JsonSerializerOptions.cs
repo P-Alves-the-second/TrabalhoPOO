@@ -20,7 +20,19 @@ namespace Model_DLL
                 throw new JsonException("Faltando a propriedade 'UserType' no JSON.");
 
             // Parseia o tipo de usuário
-            EUserType userType = Enum.Parse<EUserType>(userTypeElement.GetString());
+            EUserType userType;
+            if (userTypeElement.ValueKind == JsonValueKind.String)
+            {
+                userType = Enum.Parse<EUserType>(userTypeElement.GetString());
+            }
+            else if (userTypeElement.ValueKind == JsonValueKind.Number)
+            {
+                userType = (EUserType)userTypeElement.GetInt32();
+            }
+            else
+            {
+                throw new JsonException("Formato inválido para 'UserType'.");
+            }
 
             // Extraia dados comuns
             int iduser = jsonObject.GetProperty("IdUser").GetInt32();
@@ -33,9 +45,27 @@ namespace Model_DLL
             switch (userType)
             {
                 case EUserType.Cliente:
-                    return new Cliente(name, email, password,iduser); // Exemplo de subclasse
+                    var cliente = new Cliente(name, email, password, iduser) { Wallet = wallet };
+
+                    // Se houver propriedades adicionais em Cliente, processe aqui.
+                    if (jsonObject.TryGetProperty("Compras", out var comprasElement))
+                    {
+                        cliente.Compras = JsonSerializer.Deserialize<List<int>>(comprasElement.GetRawText());
+                    }
+                    return cliente;
                 case EUserType.Vendedor:
-                    return new Vendedor(name, email, password, iduser); // Exemplo de subclasse
+                    var vendedor = new Vendedor(name, email, password, iduser) { Wallet = wallet };
+
+                    // Se houver propriedades adicionais em Vendedor, processe aqui.
+                    if (jsonObject.TryGetProperty("Products", out var productsElement))
+                    {
+                        vendedor.Products = JsonSerializer.Deserialize<List<int>>(productsElement.GetRawText());
+                    }
+                    if (jsonObject.TryGetProperty("Marcas", out var marcasElement))
+                    {
+                        vendedor.Marcas = JsonSerializer.Deserialize<List<int>>(marcasElement.GetRawText());
+                    }
+                    return vendedor;
                 default:
                     throw new JsonException($"Tipo de usuário desconhecido: {userType}");
             }

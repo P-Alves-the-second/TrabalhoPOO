@@ -1,0 +1,12 @@
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\bin\Debug\net8.0\Enums.deps.json
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\bin\Debug\net8.0\Enums.dll
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\bin\Debug\net8.0\Enums.pdb
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.AssemblyInfoInputs.cache
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.AssemblyInfo.cs
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.sourcelink.json
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.dll
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\refint\Enums.dll
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\Enums.pdb
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Enums_DLL\obj\Debug\net8.0\ref\Enums.dll

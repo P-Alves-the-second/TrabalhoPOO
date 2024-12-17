@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model_DLL", "Model_DLL\Model_DLL.csproj", "{99B09195-9B06-4077-A237-0BDB402A5817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Model_DLL\Models.csproj", "{99B09195-9B06-4077-A237-0BDB402A5817}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums_DLL", "Enums_DLL\Enums_DLL.csproj", "{47278B2B-FFCF-4D6B-AFE6-0E0FA8C5587A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums_DLL\Enums.csproj", "{47278B2B-FFCF-4D6B-AFE6-0E0FA8C5587A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces_DLL", "Interfaces_DLL\Interfaces_DLL.csproj", "{B0774857-0B03-49BE-B93B-77EEB6103728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces_DLL\Interfaces.csproj", "{B0774857-0B03-49BE-B93B-77EEB6103728}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trabalh", "Trabalh\Trabalh.csproj", "{249F103C-4DF9-4EAE-A331-72FAC46DB1FB}"
 EndProject

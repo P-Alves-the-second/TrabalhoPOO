@@ -30,6 +30,7 @@ namespace Model_DLL
         public Vendedor(string Name,string Email,string Password,int IdUser) : base(Name, Email, Password, IdUser, EUserType.Vendedor) 
         {
             this.products = new List<int> { };
+            this.marcas = new List<int> { };
         }
         public override void MostrarDados()
         {

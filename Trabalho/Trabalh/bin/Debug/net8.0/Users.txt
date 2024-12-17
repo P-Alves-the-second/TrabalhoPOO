@@ -1,3 +1,1 @@
-{"Products":[],"Marcas":null,"Wallet":0,"Name":"Alan","Email":"wefwf","Password":"word","UserType":1,"IdUser":3}
-{"Products":[12],"Marcas":null,"Wallet":123,"Name":"Pedro","Email":"qewfadw","Password":"pass","UserType":1,"IdUser":2}
-{"Wallet":22222099,"Name":"Pedro","Email":"pedro@alves","Password":"password","UserType":0,"IdUser":1}
+{"Compras":[],"Wallet":0,"Name":"werfwer","Email":"wresfwesr","Password":"wregfvewsr","UserType":0,"IdUser":1}

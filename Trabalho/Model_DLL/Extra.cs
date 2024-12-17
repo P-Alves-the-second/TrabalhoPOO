@@ -13,19 +13,31 @@ namespace Model_DLL
 {
     public class Extra
     {
-        public static int LogIn(Hashtable UserList,string email,string password) 
+        public static int LogIn(Hashtable UserList,string email,string password,EUserType userType) 
         {
-            int CurrentUser = -1;
-            foreach(DictionaryEntry entry in UserList) 
+            foreach (DictionaryEntry entry in UserList)
             {
-                User user = (User)UserList[entry.Key];
-                if(user.Email == email) 
+                if (userType == EUserType.Cliente) 
                 {
-                    if(user.Password == password) CurrentUser = user.IdUser;
-                    break;
+                    Cliente user = (Cliente)UserList[entry.Key];
+                    if(user.Email == email)
+                    {
+                        if (user.Password == password) return user.IdUser;
+                        
+                    }
                 }
+                else 
+                {
+                    Vendedor user = (Vendedor)UserList[entry.Key];
+                    if(user.Email == email)
+                    {
+                        if (user.Password == password) return user.IdUser;
+                        
+                    }
+                }
+                
             }
-            return CurrentUser;
+            return -1;
         }
         public static void SaveUser(Hashtable UserList) 
         {
@@ -40,14 +52,16 @@ namespace Model_DLL
                     User user = (User)UserList[entry.Key];
                     if (user.UserType == EUserType.Cliente)
                     {
-                        Cliente cliente = (Cliente)UserList[entry.Key];
+                        Cliente cliente = (Cliente)UserList[entry.Key];                        
                         jsonUser = JsonSerializer.Serialize(cliente);
+                        Console.WriteLine($"{jsonUser}");
                         File.AppendAllText(caminho, jsonUser + Environment.NewLine);
 
                     }
                     else
                     {
                         Vendedor vendedor = (Vendedor)UserList[entry.Key];
+                        Console.WriteLine($"{vendedor.Name}");
                         jsonUser = JsonSerializer.Serialize(vendedor);
                         File.AppendAllText(caminho, jsonUser + Environment.NewLine);
                     }
@@ -102,6 +116,11 @@ namespace Model_DLL
         {
             Hashtable UserList = new Hashtable();
             string caminho = "./Users.txt";
+            var options = new JsonSerializerOptions
+            {
+                Converters = { new UserConverter() },
+                WriteIndented = true // Para uma formatação legível do JSON
+            };
             try
             {
                 if (!File.Exists(caminho)) return null;
@@ -110,7 +129,7 @@ namespace Model_DLL
                 {
                     if (!string.IsNullOrWhiteSpace(str))
                     {
-                        User user = JsonSerializer.Deserialize<User>(str);
+                        User user = JsonSerializer.Deserialize<User>(str,options);
                         Console.WriteLine($"{str}");
                         UserList.Add(user.IdUser, user); 
                     }

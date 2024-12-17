@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Enums_DLL\Enums_DLL.csproj" />
-    <ProjectReference Include="..\Interfaces_DLL\Interfaces_DLL.csproj" />
+    <ProjectReference Include="..\Enums_DLL\Enums.csproj" />
+    <ProjectReference Include="..\Interfaces_DLL\Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

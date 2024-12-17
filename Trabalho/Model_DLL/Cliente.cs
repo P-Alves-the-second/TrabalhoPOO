@@ -12,13 +12,17 @@ namespace Model_DLL
     public class Cliente : User
     {
         private List<int> compras;
-
+        public List<int> Compras
+        {
+            get=>compras;
+            set=>compras = value;
+        }
         public Cliente() { }
 
         [JsonConstructor]
         public Cliente(string Name, string Email, string Password,int IdUser) : base(Name, Email, Password,IdUser ,EUserType.Cliente) 
         {
-
+            this.compras = new List<int>();
         }
 
         public override void MostrarDados()
