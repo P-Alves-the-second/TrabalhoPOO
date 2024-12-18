@@ -53,7 +53,7 @@ namespace Model_DLL
         {
             Marca marca = new Marca(nome,marcaid);
             MarcaList.Add(marcaid, marca);
-            marcas.Add(marcaid);
+            this.marcas.Add(marcaid);
             return MarcaList;
         }
     }

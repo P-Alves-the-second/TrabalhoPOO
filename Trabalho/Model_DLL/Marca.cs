@@ -30,6 +30,10 @@ namespace Model_DLL
             this.nome = nome;
             this.idmarca = idmarca;
         }
+        public void MostrarDados() 
+        {
+            Console.WriteLine($"Id : {this.idmarca}\nNome : {this.nome}");
+        }
 
     }
 }

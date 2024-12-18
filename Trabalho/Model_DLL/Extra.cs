@@ -37,6 +37,7 @@ namespace Model_DLL
                 }
                 
             }
+            Console.ReadKey();
             return -1;
         }
         public static void SaveUser(Hashtable UserList) 
@@ -147,6 +148,15 @@ namespace Model_DLL
             SaveUser(UserList);
             SaveProduto(ProdutoList);
             SaveMarca(MarcaList);
+        }
+
+        public static void MostrarProdutos(Hashtable ProductList,Hashtable MarcaList) 
+        {
+            foreach(DictionaryEntry entry in ProductList) 
+            {
+                Produto produto = (Produto)ProductList[entry.Key];
+                produto.MostrarDados(MarcaList);
+            }
         }
     }
 }

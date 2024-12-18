@@ -16,11 +16,11 @@ namespace Model_DLL
         private string name { get; set; }
         private string email { get; set; }
         private string password { get; set; }
-        private int wallet { get; set; }
+        private double wallet { get; set; }
 
         private EUserType usertype { get; set; }
 
-        public int Wallet
+        public double Wallet
         {
             get => wallet;
             set => wallet = value;
@@ -79,7 +79,7 @@ namespace Model_DLL
             return UserList;
         }
 
-        public void addCash(int quantidade)
+        public void addCash(double quantidade)
         {
             this.Wallet += quantidade;
         }

@@ -14,7 +14,7 @@ namespace Model_DLL
         private int productid {  get; set; }
 
         private int marcaid {  get; set; }
-        private int price {  get; set; }
+        private double price {  get; set; }
         private string nome { get; set; }
         private string descricao { get; set; }
         private int stock {  get; set; }
@@ -41,7 +41,7 @@ namespace Model_DLL
             get => marcaid;
             set => marcaid = value;
         }
-        public int Price
+        public double Price
         {
             get => price;
             set => price = value;
@@ -97,7 +97,7 @@ namespace Model_DLL
             }
         }
 
-        public Produto(int vendedorid, int productid,int marcaid, int price, string nome, string descricao, int stock, CategoriaProduto categoria, int garantia ,GarantiaType garantiaType)
+        public Produto(int vendedorid, int productid,int marcaid, double price, string nome, string descricao, int stock, CategoriaProduto categoria, int garantia ,GarantiaType garantiaType)
         {
             this.vendedorid = vendedorid;
             this.productid = productid;
