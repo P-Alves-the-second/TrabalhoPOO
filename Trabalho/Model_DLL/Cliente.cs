@@ -12,7 +12,7 @@ namespace Model_DLL
 {
     public class Cliente : User
     {
-        private List<int> compras;
+        private List<int> compras { get; set; }
         public List<int> Compras
         {
             get=>compras;
@@ -34,7 +34,7 @@ namespace Model_DLL
             foreach (int i in this.compras) 
             {
                 Produto produto = (Produto)ProductList[i];
-                Console.WriteLine($"{produto.Nome} Data : {produto.DataCompra}");
+                Console.WriteLine($"Id : {produto.ProductId} Nome : {produto.Nome} Data : {produto.DataCompra}");
             }
         }
 
@@ -58,7 +58,7 @@ namespace Model_DLL
                 product.DataCompra = DateTime.Now;
 
                 this.Wallet -= product.Price;
-                //this.compras.Add(product.ProductId);
+                this.compras.Add(product.ProductId);
                 vendedor.addCash(product.Price);
 
             }
@@ -68,7 +68,7 @@ namespace Model_DLL
                 product.DataCompra = DateTime.Now;
 
                 this.Wallet -= product.Price;
-                //this.compras.Add(product.ProductId);
+                this.compras.Add(product.ProductId);
                 vendedor.addCash(product.Price);
             }
             return 1;     

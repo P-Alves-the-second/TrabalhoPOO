@@ -24,6 +24,9 @@
         }
       },
       "Interfaces/1.0.0": {
+        "dependencies": {
+          "Enums": "1.0.0"
+        },
         "runtime": {
           "Interfaces.dll": {
             "assemblyVersion": "1.0.0",

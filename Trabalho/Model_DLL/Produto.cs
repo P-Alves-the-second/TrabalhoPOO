@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Enums_DLL;
+using Interfaces;
 
 namespace Model_DLL
 {
-    public class Produto 
+    public class Produto : IProduto
     {
         private int vendedorid {  get; set; }
         private int productid {  get; set; }
@@ -22,12 +24,8 @@ namespace Model_DLL
         private int garantia { get; set; }
 
         private DateTime datacompra {  get; set; }
-        private CategoriaProduto categoria {  get; set; }
-
+        private CategoriaProduto categoria { get; set; }
         private GarantiaType garantiatype { get; set; }
-
-        
-
         public int VendedorId 
         {
             get => vendedorid;
@@ -126,6 +124,21 @@ namespace Model_DLL
             int aux = Extra.CalculateDifference(this.datacompra,DateTime.Now,s);
             if (aux < this.garantia) return 1;
             return 0;
+        }
+        public void Save()
+        {
+            string caminho = "./Produtos.txt";
+            string jsonProduto;
+            if (File.Exists(caminho)) File.Delete(caminho);
+                try
+                {
+                    jsonProduto = JsonSerializer.Serialize(this);
+                    File.AppendAllText(caminho, jsonProduto + Environment.NewLine);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Erro ao salvar dados(Produto): " + ex.Message);
+                }
         }
     }
 }

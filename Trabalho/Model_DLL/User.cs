@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Interfaces_DLL;
 using Enums_DLL;
 using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace Model_DLL
 {
-    public abstract class User: IUser
+    public abstract class User
     {
         private int iduser {  get; set; }
         private string name { get; set; }
@@ -73,15 +73,43 @@ namespace Model_DLL
             foreach (DictionaryEntry entry in UserList) 
             {
                 User user = (User)UserList[entry.Key];
-                if (user.email == this.email) throw new IOException("Email já existe");
+                if (user.email == this.email) return UserList;
             }
-            UserList.Add(this.email, this);
+            UserList.Add(this.iduser, this);
             return UserList;
         }
 
         public void addCash(double quantidade)
         {
             this.Wallet += quantidade;
+        }
+
+        public void Save()
+        {
+            string caminho = "./Users.txt";
+            string jsonUser;
+            if (File.Exists(caminho)) File.Delete(caminho);        
+                try
+                { 
+                    if (this.UserType == EUserType.Cliente)
+                    {
+                        jsonUser = JsonSerializer.Serialize(this);
+                        //Console.WriteLine($"{jsonUser}");
+                        File.AppendAllText(caminho, jsonUser + Environment.NewLine);
+
+                    }
+                    else
+                    {
+                        //Console.WriteLine($"{vendedor.Name}");
+                        jsonUser = JsonSerializer.Serialize(this);
+                        File.AppendAllText(caminho, jsonUser + Environment.NewLine);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Erro ao salvar dados(User): " + ex.Message);
+                }
+            
         }
     }
 }

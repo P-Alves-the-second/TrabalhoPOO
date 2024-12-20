@@ -10,3 +10,7 @@ C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Deb
 C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\refint\Interfaces.dll
 C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces.pdb
 C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\ref\Interfaces.dll
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\bin\Debug\net8.0\Enums.dll
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\bin\Debug\net8.0\Enums.pdb
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\pedro\TrabalhoPOOVerdadeiro\TrabalhoPOO\Trabalho\Interfaces_DLL\obj\Debug\net8.0\Interfaces.csproj.Up2Date

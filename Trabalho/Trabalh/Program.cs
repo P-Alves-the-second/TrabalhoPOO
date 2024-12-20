@@ -21,6 +21,7 @@ namespace Trabalho
             int CurrentMarcaId = 1;
             int CurrentCampanhaId = 1;
             EUserType CurrentUserType = EUserType.Cliente;
+
             Hashtable UserList = new Hashtable();
             Hashtable ProductList = new Hashtable();
             Hashtable MarcaList = new Hashtable();
@@ -28,21 +29,25 @@ namespace Trabalho
             UserList = Extra.LoadUser();
             ProductList = Extra.LoadProduct();
             MarcaList = Extra.LoadMarca();
+
             foreach(DictionaryEntry entry in UserList) 
             {
                 User user = (User)UserList[entry.Key];
                 if(user.IdUser>=CurrentUserId)CurrentUserId = user.IdUser+1;
             }
+            ///
             if(ProductList!=null)foreach(DictionaryEntry entry in ProductList) 
             {
                 Produto produto = (Produto)ProductList[entry.Key];
                 if(produto.ProductId>=CurrentProductId)CurrentProductId = produto.ProductId+1;
             }
+
             foreach(DictionaryEntry entry in MarcaList) 
             {
                 Marca marca = (Marca)MarcaList[entry.Key];
                 if(marca.IdMarca>=CurrentMarcaId)CurrentMarcaId = marca.IdMarca+1;
             }
+
             int i = 1;
 
             while (i != 0)
@@ -132,7 +137,11 @@ namespace Trabalho
                             UserList = user.Register(UserList);
                         }
                         CurrentUserId++;
-                        Extra.SaveUser(UserList);
+                        foreach(DictionaryEntry entry in UserList) 
+                        {
+                            User user = (User)UserList[entry.Key];
+                            user.Save();
+                        }
                         Console.ReadKey();
                         Console.Clear();
                     }
@@ -201,7 +210,11 @@ namespace Trabalho
                                 case 3: Console.WriteLine("Saldo insuficiente");
                                     break;
                             }
-                            Extra.SaveUser(ProductList);
+                            foreach (DictionaryEntry entry in UserList)
+                            {
+                                User user = (User)UserList[entry.Key];
+                                user.Save();
+                            }
                         }
                         #endregion
                         #region AdicionarProduto
@@ -264,7 +277,11 @@ namespace Trabalho
                                 ProductList.Add(produto.ProductId, produto);
                                 CurrentProductId++;
                                 vendedor.AddProduto(produto);
-                                Extra.SaveProduto(ProductList);
+                                foreach(DictionaryEntry entry in ProductList) 
+                                {
+                                    Produto produto1 = (Produto)ProductList[entry.Key];
+                                    produto1.Save();
+                                }
                             }
                             catch (System.FormatException)
                             {
@@ -292,7 +309,11 @@ namespace Trabalho
                             }
                             Cliente cliente = (Cliente)UserList[CurrentUser];
                             cliente.addCash(quant);
-                            Extra.SaveUser(UserList);
+                            foreach (DictionaryEntry entry in UserList)
+                            {
+                                User user = (User)UserList[entry.Key];
+                                user.Save();
+                            }
                         }
                         #endregion
                         #region AdicionarMarca
@@ -304,7 +325,12 @@ namespace Trabalho
                             Vendedor vendedor = (Vendedor)UserList[CurrentUser];
                             MarcaList = vendedor.AddMarca(MarcaList,CurrentMarcaId,nome);
                             CurrentMarcaId++;
-                            Extra.SaveMarca(MarcaList);
+                            
+                            foreach (DictionaryEntry entry in MarcaList) 
+                            {
+                                Marca marca = (Marca)MarcaList[entry.Key];
+                                marca.Save();
+                            }
                         }
                         Console.ReadKey();
                         #endregion
@@ -429,21 +455,31 @@ namespace Trabalho
                                 MarcaList.Clear();
                                 CampanhaList.Clear();
                                 Extra.ApagarDados(0);
+                                CurrentUser = -1;
+                                CurrentUserId = 1;
+                                CurrentProductId = 1;
+                                CurrentMarcaId = 1;
+                                CurrentCampanhaId = 1;
                                 break;
                             case 1:
                                 UserList.Clear();
+                                CurrentUserId = 1;
+                                CurrentUser = -1;
                                 Extra.ApagarDados(1);
                                 break;
                             case 2:
                                 ProductList.Clear();
+                                CurrentProductId = 1;
                                 Extra.ApagarDados(2);
                                 break;
                             case 3:
                                 MarcaList.Clear();
+                                CurrentMarcaId = 1;
                                 Extra.ApagarDados(3);
                                 break;
                             case 4:
                                 CampanhaList.Clear();
+                                CurrentCampanhaId = 1;
                                 break;
                         }
                         #endregion

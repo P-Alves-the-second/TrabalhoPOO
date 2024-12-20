@@ -1,4 +1,5 @@
 ﻿using Enums_DLL;
+using Interfaces;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace Model_DLL
 {
-    public class Campanha
+    public class Campanha : ICampanha
     {
-        public List<int> produtos;
-        private int campanhaid;
-        private string nome;
-        private string descricao;
-        private double desconto;
-        private DescontoType descontotype;
-        
+        public List<int> produtos { get; set; }
+        private int campanhaid { get; set; }
+        private string nome { get; set; }
+        private string descricao { get; set; }
+        private double desconto { get; set; }
+        private DescontoType descontotype { get; set; }
+
         public int CampanhaId 
         {
             get => campanhaid;

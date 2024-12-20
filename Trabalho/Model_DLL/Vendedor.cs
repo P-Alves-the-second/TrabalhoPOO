@@ -7,19 +7,19 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Enums_DLL;
+using Interfaces;
 
 namespace Model_DLL
 {
-    public class Vendedor : User
+    public class Vendedor : User, IVendedor
     {
-        private List<int> products;
+        private List<int> products { get; set; }
+        private List<int> marcas { get; set; }
         public List<int> Products
         {
             get => products; 
             set => products = value;
         }
-        public List<int> marcas;
-
         public List<int> Marcas 
         {
             get => marcas;

@@ -1,2 +1,1 @@
-{"Compras":[],"Wallet":0,"Name":"pedroo","Email":"cliente","Password":"123","UserType":0,"IdUser":2}
-{"Products":[2],"Marcas":[],"Wallet":0,"Name":"pedro~","Email":"vendedor","Password":"123","UserType":1,"IdUser":1}
+{"Wallet":333,"Name":"12","Email":"vendedor","Password":"123","UserType":1,"IdUser":1}
