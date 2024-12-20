@@ -25,10 +25,16 @@ namespace Model_DLL
             this.compras = new List<int>();
         }
 
-        public override void MostrarDados()
+        public override void MostrarDados(Hashtable ProductList, Hashtable MarcaList)
         {
-            base.MostrarDados();
-            Console.WriteLine($"Tipo : {EUserType.Cliente} ");
+            base.MostrarDados(ProductList,MarcaList);
+            Console.WriteLine($"Tipo : Cliente ");
+            Console.WriteLine("Compras :");
+            foreach (int i in this.compras) 
+            {
+                Produto produto = (Produto)ProductList[i];
+                Console.WriteLine($"{produto.Nome} Data : {produto.DataCompra}");
+            }
         }
 
         public int Buy(Hashtable ProductList,Hashtable VendedorList,int productid) 

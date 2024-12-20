@@ -66,7 +66,7 @@ namespace Model_DLL
             this.usertype = usertype;
             this.wallet = 0;
         }
-        public virtual void MostrarDados() { Console.WriteLine($"ID : {this.iduser}\nNome : {this.name}\nEmail : {this.email}"); }
+        public virtual void MostrarDados(Hashtable ProductList,Hashtable MarcaList) { Console.WriteLine($"ID : {this.iduser}\nNome : {this.name}\nEmail : {this.email}\nSaldo : {this.wallet}"); }
 
         public Hashtable Register(Hashtable UserList) 
         {

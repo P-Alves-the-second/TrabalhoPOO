@@ -32,10 +32,23 @@ namespace Model_DLL
             this.products = new List<int> { };
             this.marcas = new List<int> { };
         }
-        public override void MostrarDados()
+        public override void MostrarDados(Hashtable ProductList, Hashtable MarcaList)
         {
-            base.MostrarDados();
-            Console.WriteLine($"Tipo : {EUserType.Vendedor}");
+            base.MostrarDados(ProductList, MarcaList);
+            Console.WriteLine($"Tipo : Vendedor");
+            Console.WriteLine("Produtos : ");
+            Console.WriteLine("---");
+            foreach (int i in products) 
+            {
+                Produto produto = (Produto)ProductList[i];
+                Console.WriteLine($"Id : {produto.ProductId}\nNome : {produto.Nome}");
+            }
+            Console.WriteLine("---");
+            foreach (int i in marcas) 
+            {
+                Marca marca = (Marca)MarcaList[i];
+                Console.WriteLine($"Id : {marca.IdMarca}\nNome : {marca.Nome}");
+            }
         }
         public void AddProduto(Produto produto) 
         {

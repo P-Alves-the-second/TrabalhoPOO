@@ -15,25 +15,15 @@ namespace Model_DLL
     {
         public static int LogIn(Hashtable UserList,string email,string password,EUserType userType) 
         {
+            
             foreach (DictionaryEntry entry in UserList)
             {
-                if (userType == EUserType.Cliente) 
+                Console.WriteLine($"{entry.Key}");
+                Console.ReadKey();
+                User user = (User)UserList[entry.Key];
+                if (user.Email == email) 
                 {
-                    Cliente user = (Cliente)UserList[entry.Key];
-                    if(user.Email == email)
-                    {
-                        if (user.Password == password) return user.IdUser;
-                        
-                    }
-                }
-                else 
-                {
-                    Vendedor user = (Vendedor)UserList[entry.Key];
-                    if(user.Email == email)
-                    {
-                        if (user.Password == password) return user.IdUser;
-                        
-                    }
+                    if(user.Password==password)return user.IdUser;
                 }
                 
             }
@@ -124,7 +114,7 @@ namespace Model_DLL
             };
             try
             {
-                if (!File.Exists(caminho)) return null;
+                if (!File.Exists(caminho)) return UserList;
                 string[] strings = File.ReadAllLines(caminho);
                 foreach (string str in strings)
                 {
@@ -138,10 +128,70 @@ namespace Model_DLL
             }
             catch (Exception ex) 
             {
-                Console.WriteLine("Erro ao carregar dados: " + ex.Message);
+                Console.WriteLine("Erro ao carregar dados(User): " + ex.Message);
                 return null;
             }
             return UserList;
+        }
+
+        public static Hashtable LoadProduct() 
+        {
+            Hashtable ProductList = new Hashtable();
+            string caminho = "./Produtos.txt";
+            var options = new JsonSerializerOptions
+            {
+                Converters = { new UserConverter() },
+                WriteIndented = true // Para uma formatação legível do JSON
+            };
+            try 
+            {
+                if (!File.Exists(caminho)) return ProductList;
+                string[] strings = File.ReadAllLines(caminho);
+                foreach (string str in strings) 
+                {
+                    if (!string.IsNullOrWhiteSpace(str)) 
+                    {
+                        Produto produto = JsonSerializer.Deserialize<Produto>(str,options);
+                        ProductList.Add(produto.ProductId,produto);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao carregar dados(Produto): " + ex.Message);
+                return null;
+            }
+            return ProductList;
+        }
+        public static Hashtable LoadMarca() 
+        {
+            Hashtable MarcaList = new Hashtable();
+            string caminho = "./Marcas.txt";
+            var options = new JsonSerializerOptions
+            {
+                Converters = { new UserConverter() },
+                WriteIndented = true // Para uma formatação legível do JSON
+            };
+            try 
+            {
+                if(!File.Exists(caminho)) return MarcaList;
+                string[] strings = File.ReadAllLines(caminho);
+                foreach(string str in strings) 
+                {
+                    if (!string.IsNullOrWhiteSpace(str)) 
+                    {
+                        Marca marca = JsonSerializer.Deserialize<Marca>(str,options);
+                        MarcaList.Add(marca.IdMarca,marca);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao carregar dados(Marca): " + ex.Message);
+                return null;
+            }
+            return MarcaList;
+
         }
         public static void Save(Hashtable UserList,Hashtable ProdutoList,Hashtable MarcaList) 
         {
@@ -155,6 +205,7 @@ namespace Model_DLL
             foreach(DictionaryEntry entry in ProductList) 
             {
                 Produto produto = (Produto)ProductList[entry.Key];
+                Console.WriteLine("----");
                 produto.MostrarDados(MarcaList);
             }
         }

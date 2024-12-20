@@ -23,6 +23,13 @@ namespace Trabalho
             Hashtable ProductList = new Hashtable();
             Hashtable MarcaList = new Hashtable();
             UserList = Extra.LoadUser();
+            ProductList = Extra.LoadProduct();
+            MarcaList = Extra.LoadMarca();
+            foreach(DictionaryEntry entry in UserList) 
+            {
+                User user = (User)UserList[entry.Key];
+                if(user.IdUser>=CurrentUserId)CurrentUserId = user.IdUser+1;
+            }
             int i = 1;
 
             while (i != 0)
@@ -33,30 +40,48 @@ namespace Trabalho
                     int aux = 0;
                     while (aux != 1 && aux != 2)
                     {
-                        Console.WriteLine("1 - LogIn\n2 - Registar\n0 - Sair");
-                        aux = Convert.ToInt32(Console.ReadLine());
-                        if(aux==0)Environment.Exit(0);
+                        try
+                        {
+                            Console.WriteLine("1 - LogIn\n2 - Registar\n0 - Sair");
+                            aux = Convert.ToInt32(Console.ReadLine());
+                            if (aux == 0) Environment.Exit(0);
+                        } 
+                        catch(System.FormatException) 
+                        {
+                            Console.WriteLine("Formato Invalido");
+                            Console.Clear();
+                        }
                     }
                     Console.Clear();
                     if (aux == 1) 
                     {
                         aux = 0;
-                        while (aux != 1 && aux != 2)
+                        try
                         {
-                            Console.WriteLine("----LogIn----");
-                            Console.WriteLine("1 - Vendedor");
-                            Console.WriteLine("2 - Cliente");
-                            aux = Convert.ToInt32(Console.ReadLine());
+                            while (aux != 1 && aux != 2)
+                            {
+                                Console.Clear();
+                                Console.WriteLine("----LogIn----");
+                                Console.WriteLine("1 - Vendedor");
+                                Console.WriteLine("2 - Cliente");
+                                aux = Convert.ToInt32(Console.ReadLine());
+                            }
+                            Console.WriteLine("Email : ");
+                            string email = Console.ReadLine();
+
+                            Console.WriteLine("Senha : ");
+                            string senha = Console.ReadLine();
+
+                            if (aux == 1) CurrentUserType = EUserType.Vendedor;
+                            else CurrentUserType = EUserType.Cliente;
+                            CurrentUser = Extra.LogIn(UserList, email, senha, CurrentUserType);
                         }
-                        Console.WriteLine("Email : ");
-                        string email = Console.ReadLine();
-
-                        Console.WriteLine("Senha : ");
-                        string senha = Console.ReadLine();
-
-                        if (aux == 1) CurrentUserType = EUserType.Vendedor;
-                        else CurrentUserType = EUserType.Cliente;
-                        CurrentUser = Extra.LogIn(UserList, email, senha, CurrentUserType);
+                        catch (System.FormatException)
+                        {
+                            Console.WriteLine("Formato Invalido");
+                            
+                        }
+                        Console.ReadKey();
                         Console.Clear();
                     }
                     else 
@@ -121,12 +146,29 @@ namespace Trabalho
                 {
                     case 1:
                         Extra.MostrarProdutos(ProductList, MarcaList);
-                        Console.WriteLine("efwwdfe");
                         Console.ReadKey();
                         break;
                     case 2:
+                        Console.Clear();
                         if (CurrentUserType == EUserType.Cliente)
-                        {                          
+                        {
+                            Console.WriteLine("Id do Produto : ");
+                            int id = Convert.ToInt32(Console.ReadLine());
+
+                            Cliente cliente = (Cliente)UserList[CurrentUser];
+                            int aux = cliente.Buy(ProductList,UserList,id);
+                            switch (aux) 
+                            {
+                                case 1:
+                                    Console.WriteLine("Sucesso");
+                                    break;
+                                case 2:
+                                    Console.WriteLine("Produto sem estoque");
+                                    break;
+                                case 3: Console.WriteLine("Saldo insuficiente");
+                                    break;
+                            }
+                            Extra.SaveUser(ProductList);
                         }
                         else
                         {
@@ -185,12 +227,19 @@ namespace Trabalho
                             ProductList.Add(produto.ProductId,produto);
                             CurrentProductId++;
                             vendedor.AddProduto(produto);
-                        }                 
+                            Extra.SaveProduto(ProductList);
+                        }       
+                        Console.ReadKey();
                         break;
                     case 3:
                         if (CurrentUserType == EUserType.Cliente)
                         {
-
+                            int quant = -1;
+                            Console.WriteLine("Quantidade a adicionar :");
+                            while(quant<0)quant = Convert.ToInt32(Console.ReadLine());
+                            Cliente cliente = (Cliente)UserList[CurrentUser];
+                            cliente.addCash(quant);
+                            Extra.SaveUser(UserList);
                         }
                         else 
                         {
@@ -200,7 +249,9 @@ namespace Trabalho
                             Vendedor vendedor = (Vendedor)UserList[CurrentUser];
                             MarcaList = vendedor.AddMarca(MarcaList,CurrentMarcaId,nome);
                             CurrentMarcaId++;
+                            Extra.SaveMarca(MarcaList);
                         }
+                        Console.ReadKey();
                         break;
                     case 4:
                         Console.Clear();
@@ -211,6 +262,20 @@ namespace Trabalho
                             marca.MostrarDados();
                             Console.ReadKey();
                         }
+                        break;
+                    case 5:
+                        Console.Clear();
+                        if (CurrentUserType == EUserType.Cliente) 
+                        {
+                            Cliente cliente = (Cliente)UserList[CurrentUser];
+                            cliente.MostrarDados(ProductList,MarcaList);
+                        }
+                        else
+                        {
+                            Vendedor vendedor = (Vendedor)UserList[CurrentUser];
+                            vendedor.MostrarDados(ProductList,MarcaList); 
+                        }
+                        Console.ReadKey();
                         break;
                 }
             }

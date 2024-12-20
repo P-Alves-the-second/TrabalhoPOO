@@ -1,0 +1,1 @@
+{"VendedorId":1,"ProductId":1,"MarcaId":1,"Price":321,"Nome":"tenis","Descricao":"tenisssss","Stock":22,"Categoria":1,"DataCompra":"0001-01-01T00:00:00","Garantia":9,"GarantiaType":1,"Marca":null}
