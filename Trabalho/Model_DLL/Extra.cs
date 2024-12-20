@@ -11,8 +11,21 @@ using Enums_DLL;
 
 namespace Model_DLL
 {
+    /// <summary>
+    /// A classe <see cref="Extra"/> contém métodos auxiliares para gerenciar operações relacionadas ao carregamento de dados, autenticação de usuários, cálculo de diferença entre datas e exclusão de dados.
+    /// </summary>
     public class Extra
     {
+        /// <summary>
+        /// Realiza o login de um usuário, verificando seu email e senha em uma lista de usuários.
+        /// </summary>
+        /// <param name="UserList">Lista de usuários carregada em um <see cref="Hashtable"/>.</param>
+        /// <param name="email">Email do usuário.</param>
+        /// <param name="password">Senha do usuário.</param>
+        /// <param name="userType">Tipo de usuário (cliente, vendedor, etc.).</param>
+        /// <returns>
+        /// Retorna o ID do usuário se o login for bem-sucedido, ou -1 caso contrário.
+        /// </returns>
         public static int LogIn(Hashtable UserList, string email, string password, EUserType userType)
         {
 
@@ -29,7 +42,11 @@ namespace Model_DLL
             Console.ReadKey();
             return -1;
         }
-        
+
+        /// <summary>
+        /// Carrega a lista de usuários de um arquivo JSON e retorna um <see cref="Hashtable"/> com os dados.
+        /// </summary>
+        /// <returns>Retorna um <see cref="Hashtable"/> contendo os usuários carregados.</returns>
         public static Hashtable LoadUser()
         {
             Hashtable UserList = new Hashtable();
@@ -61,6 +78,10 @@ namespace Model_DLL
             return UserList;
         }
 
+        /// <summary>
+        /// Carrega a lista de produtos de um arquivo JSON e retorna um <see cref="Hashtable"/> com os dados.
+        /// </summary>
+        /// <returns>Retorna um <see cref="Hashtable"/> contendo os produtos carregados.</returns>
         public static Hashtable LoadProduct()
         {
             Hashtable ProductList = new Hashtable();
@@ -90,6 +111,11 @@ namespace Model_DLL
             }
             return ProductList;
         }
+
+        /// <summary>
+        /// Carrega a lista de marcas de um arquivo JSON e retorna um <see cref="Hashtable"/> com os dados.
+        /// </summary>
+        /// <returns>Retorna um <see cref="Hashtable"/> contendo as marcas carregadas.</returns>
         public static Hashtable LoadMarca()
         {
             Hashtable MarcaList = new Hashtable();
@@ -120,8 +146,12 @@ namespace Model_DLL
             return MarcaList;
 
         }
- 
 
+        /// <summary>
+        /// Exibe todos os produtos na lista de produtos, chamando o método <see cref="Produto.MostrarDados"/> para cada um.
+        /// </summary>
+        /// <param name="ProductList">Lista de produtos a ser exibida.</param>
+        /// <param name="MarcaList">Lista de marcas associadas aos produtos.</param>
         public static void MostrarProdutos(Hashtable ProductList, Hashtable MarcaList)
         {
             foreach (DictionaryEntry entry in ProductList)
@@ -131,12 +161,31 @@ namespace Model_DLL
                 produto.MostrarDados(MarcaList);
             }
         }
+
+        /// <summary>
+        /// Apaga os dados armazenados em arquivos de acordo com a opção fornecida.
+        /// </summary>
+        /// <param name="op">
+        /// 0 - Apaga todos os dados (usuários, produtos, marcas).
+        /// 1 - Apaga os dados de usuários.
+        /// 2 - Apaga os dados de produtos.
+        /// 3 - Apaga os dados de marcas.
+        /// </param>
         public static void ApagarDados(int op)
         {
             if (op == 3 || op == 0) File.Delete("./Marcas.txt");
             if (op == 2 || op == 0) File.Delete("./Produtos.txt");
             if (op == 1 || op == 0) File.Delete("./Users.txt");
         }
+
+        /// <summary>
+        /// Calcula a diferença entre duas datas, retornando o valor em dias, meses ou anos, conforme especificado.
+        /// </summary>
+        /// <param name="startDate">Data de início para o cálculo.</param>
+        /// <param name="endDate">Data final para o cálculo.</param>
+        /// <param name="unit">Unidade da diferença ("days", "months", ou "years").</param>
+        /// <returns>Retorna a diferença entre as datas na unidade especificada.</returns>
+        /// <exception cref="ArgumentException">Lançado quando a unidade fornecida é inválida.</exception>
         public static int CalculateDifference(DateTime startDate, DateTime endDate, string unit)
         {
             switch (unit.ToLower())

@@ -9,8 +9,23 @@ using System.Threading.Tasks;
 
 namespace Model_DLL
 {
+    /// <summary>
+    /// A classe <see cref="UserConverter"/> é um conversor personalizado para serializar e desserializar objetos da classe <see cref="User"/> 
+    /// utilizando o <see cref="JsonConverter"/>. Ela permite a conversão de objetos JSON para instâncias de subclasses de <see cref="User"/> 
+    /// (como <see cref="Cliente"/> e <see cref="Vendedor>) e vice-versa.
+    /// </summary>
     public class UserConverter : JsonConverter<User>
     {
+
+        /// <summary>
+        /// Método responsável por desserializar um objeto JSON para uma instância da classe <see cref="User"/> 
+        /// (ou suas subclasses <see cref="Cliente"/> ou <see cref="Vendedor"/>), dependendo do tipo de usuário fornecido no JSON.
+        /// </summary>
+        /// <param name="reader">O leitor de JSON que será utilizado para fazer a leitura dos dados.</param>
+        /// <param name="typeToConvert">O tipo de objeto a ser convertido (no caso, <see cref="User"/>).</param>
+        /// <param name="options">As opções de serialização utilizadas pelo <see cref="JsonSerializer"/>.</param>
+        /// <returns>Retorna uma instância da classe <see cref="User"/> ou suas subclasses baseadas no tipo fornecido.</returns>
+        /// <exception cref="JsonException">Lançada quando o JSON está mal formado ou o tipo de usuário não pode ser interpretado.</exception>
         public override User Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
             var jsonObject = JsonDocument.ParseValue(ref reader).RootElement;
@@ -71,6 +86,13 @@ namespace Model_DLL
             }
         }
 
+        /// <summary>
+        /// Método responsável por serializar um objeto <see cref="User"/> (ou suas subclasses <see cref="Cliente"/> ou <see cref="Vendedor"/>) 
+        /// em formato JSON.
+        /// </summary>
+        /// <param name="writer">O escritor de JSON que será utilizado para gerar a saída JSON.</param>
+        /// <param name="value">O valor do tipo <see cref="User"/> que será serializado.</param>
+        /// <param name="options">As opções de serialização utilizadas pelo <see cref="JsonSerializer"/>.</param>
         public override void Write(Utf8JsonWriter writer, User value, JsonSerializerOptions options)
         {
             // Serializar os dados comuns da classe User

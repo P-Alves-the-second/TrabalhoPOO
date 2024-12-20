@@ -13,49 +13,88 @@ namespace Trabalho
 {
     internal class Program
     {
+        /// <summary>
+        /// Método principal do programa que inicializa variáveis globais, carrega dados de listas e executa as funções de login e registro de usuários.
+        /// </summary>
         static void Main(string[] args)
         {
+            /// <summary>
+            /// Variável que armazena o usuário atualmente logado. -1 significa nenhum usuário logado.
+            /// </summary>
             int CurrentUser = -1;
+
+            /// <summary>
+            /// Identificadores únicos incrementais para usuários, produtos, marcas e campanhas.
+            /// </summary>
             int CurrentUserId = 1;
             int CurrentProductId = 1;
             int CurrentMarcaId = 1;
             int CurrentCampanhaId = 1;
+
+            /// <summary>
+            /// Tipo de usuário atual. Inicialmente definido como Cliente.
+            /// </summary>
             EUserType CurrentUserType = EUserType.Cliente;
 
+            /// <summary>
+            /// Listas hash para armazenar usuários, produtos, marcas e campanhas.
+            /// </summary>
             Hashtable UserList = new Hashtable();
             Hashtable ProductList = new Hashtable();
             Hashtable MarcaList = new Hashtable();
             Hashtable CampanhaList = new Hashtable();
+
+            // Carregar listas de dados a partir de fontes externas.
             UserList = Extra.LoadUser();
             ProductList = Extra.LoadProduct();
             MarcaList = Extra.LoadMarca();
 
-            foreach(DictionaryEntry entry in UserList) 
+
+            /// <summary>
+            /// Atualiza o próximo ID de usuário com base nos usuários carregados.
+            /// </summary>
+            foreach (DictionaryEntry entry in UserList) 
             {
                 User user = (User)UserList[entry.Key];
                 if(user.IdUser>=CurrentUserId)CurrentUserId = user.IdUser+1;
             }
-            ///
-            if(ProductList!=null)foreach(DictionaryEntry entry in ProductList) 
+            /// <summary>
+            /// Atualiza o próximo ID de produto com base nos produtos carregados, se existirem.
+            /// </summary>
+            if (ProductList!=null)foreach(DictionaryEntry entry in ProductList) 
             {
                 Produto produto = (Produto)ProductList[entry.Key];
                 if(produto.ProductId>=CurrentProductId)CurrentProductId = produto.ProductId+1;
             }
 
-            foreach(DictionaryEntry entry in MarcaList) 
+            /// <summary>
+            /// Atualiza o próximo ID de marca com base nas marcas carregadas.
+            /// </summary>
+            foreach (DictionaryEntry entry in MarcaList) 
             {
                 Marca marca = (Marca)MarcaList[entry.Key];
                 if(marca.IdMarca>=CurrentMarcaId)CurrentMarcaId = marca.IdMarca+1;
             }
 
+            /// <summary>
+            /// Controle do loop principal do programa. i = 0 encerra o programa.
+            /// </summary>
             int i = 1;
 
             while (i != 0)
             {
                 Console.Clear();
+
+                /// <summary>
+                /// Loop de autenticação do usuário enquanto nenhum usuário estiver logado.
+                /// </summary>
                 while (CurrentUser == -1)
                 {
                     int aux = 0;
+
+                    /// <summary>
+                    /// Menu principal de login e registro.
+                    /// </summary>
                     while (aux != 1 && aux != 2)
                     {
                         try
@@ -72,6 +111,9 @@ namespace Trabalho
                     }
                     Console.Clear();
                     #region LogIn
+                    /// <summary>
+                    /// Processo de login para usuários já cadastrados.
+                    /// </summary>
                     if (aux == 1) 
                     {
                         aux = 0;
@@ -105,6 +147,9 @@ namespace Trabalho
                     }
                     #endregion
                     #region Register
+                    /// <summary>
+                    /// Processo de registro para novos usuários.
+                    /// </summary>
                     else
                     {
                         EUserType UserType = EUserType.Vendedor;
@@ -150,6 +195,9 @@ namespace Trabalho
 
                 }
                 #region Menu
+                /// <summary>
+                /// Gerencia o menu principal e as respectivas funcionalidades com base no tipo de usuário.
+                /// </summary>
                 Console.Clear() ;
                 Console.WriteLine("----Menu----");
                 Console.WriteLine("1 - Mostrar Produtos");
@@ -179,18 +227,27 @@ namespace Trabalho
                 }
                 #endregion
 
+
+                /// <summary>
+                /// Executa a ação correspondente à opção selecionada no menu.
+                /// </summary>
                 switch (i)
                 {
                   
                     case 1:
                         #region MostrarProdutos
+                        /// <summary>
+                        /// Mostra os produtos disponíveis.
+                        /// </summary>
                         Extra.MostrarProdutos(ProductList, MarcaList);
                         #endregion
                         Console.ReadKey();
-                        break;                   
+                        break;
                     case 2:
-                        
                         Console.Clear();
+                        /// <summary>
+                        /// Realiza a compra de um produto (Cliente) ou adiciona um novo produto (Vendedor).
+                        /// </summary>
                         #region ComprarProduto
                         if (CurrentUserType == EUserType.Cliente)
                         {
@@ -218,6 +275,9 @@ namespace Trabalho
                         }
                         #endregion
                         #region AdicionarProduto
+                        /// <summary>
+                        /// Solicita informações para criar um novo produto.
+                        /// </summary>
                         else
                         {
                             int aux = 0;
@@ -294,6 +354,9 @@ namespace Trabalho
                         break;
                     case 3:
                         #region AdicionarDinheiro
+                        /// <summary>
+                        /// Permite que o cliente adicione dinheiro à sua conta.
+                        /// </summary>
                         if (CurrentUserType == EUserType.Cliente)
                         {
                             int quant = -1;
@@ -317,6 +380,9 @@ namespace Trabalho
                         }
                         #endregion
                         #region AdicionarMarca
+                        /// <summary>
+                        /// Permite que o vendedor adicione uma nova marca.
+                        /// </summary>
                         else
                         {
                             Console.Clear();
@@ -337,6 +403,9 @@ namespace Trabalho
                         break;
                     case 4:
                         #region ChecarGarantia
+                        /// <summary>
+                        /// Permite que o cliente cheque a garantia de um produto.
+                        /// </summary>
                         if (CurrentUserType == EUserType.Cliente) 
                         {
                             Console.WriteLine("Id do Produto : ");
@@ -353,6 +422,9 @@ namespace Trabalho
                         }
                         #endregion
                         #region AdicionarCampanha
+                        /// <summary>
+                        /// Permite que o vendedor adicione uma nova campanha ao sistema.
+                        /// </summary>
                         else
                         {
                             try
@@ -400,6 +472,9 @@ namespace Trabalho
                     case 5:
                         Console.Clear();
                         #region MostrarMarcas
+                        /// <summary>
+                        /// Exibe informações de todas as marcas cadastradas no sistema.
+                        /// </summary>
                         foreach (DictionaryEntry entry in MarcaList) 
                         {
                             Marca marca = (Marca)MarcaList[entry.Key];
@@ -412,6 +487,9 @@ namespace Trabalho
                     case 6:
                         Console.Clear();
                         #region MostrarCampanhas
+                        /// <summary>
+                        /// Exibe informações detalhadas de todas as campanhas cadastradas, incluindo os produtos associados.
+                        /// </summary>
                         foreach (DictionaryEntry entry in CampanhaList) 
                         {
                             Console.WriteLine("----");
@@ -424,6 +502,9 @@ namespace Trabalho
                     case 7:
                         Console.Clear();
                         #region MostrarPerfil
+                        /// <summary>
+                        /// Exibe as informações do perfil do utilizador atual.
+                        /// </summary>
                         if (CurrentUserType == EUserType.Cliente) 
                         {
                             Cliente cliente = (Cliente)UserList[CurrentUser];
@@ -439,11 +520,18 @@ namespace Trabalho
                         break;
                     case 8:
                         #region SignOut
+                        /// <summary>
+                        /// Realiza o signout do usuário atual, redefinindo o identificador do usuário para -1.
+                        /// </summary>
                         CurrentUser = -1;
                         #endregion
                         break;
                     case 9:
                         #region ApagarDados
+                        /// <summary>
+                        /// Permite que o administrador apague diferentes categorias de dados do sistema.
+                        /// Após a remoção, os identificadores relevantes são reiniciados para os valores iniciais.
+                        /// </summary>
                         int op = -1;
                         Console.WriteLine("Quais dados gostaria de apagar?\n1 - Users\n2 - Produtos\n3 - Marcas\n4 - Campanhas\n0 - Todos");
                         while(op<0 || op>4)op = Convert.ToInt32(Console.ReadLine());

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|solutionrelative:model_dll\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{249F103C-4DF9-4EAE-A331-72FAC46DB1FB}|Trabalh\\Trabalh.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\trabalh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249F103C-4DF9-4EAE-A331-72FAC46DB1FB}|Trabalh\\Trabalh.csproj|solutionrelative:trabalh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|solutionrelative:model_dll\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|solutionrelative:model_dll\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|solutionrelative:model_dll\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|solutionrelative:model_dll\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99B09195-9B06-4077-A237-0BDB402A5817}|Model_DLL\\Models.csproj|c:\\users\\pedro\\trabalhopooverdadeiro\\trabalhopoo\\trabalho\\model_dll\\jsonserializeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,7 +93,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,21 +109,19 @@
               "RelativeToolTip": "Interfaces_DLL\\ICliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:59:07.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:59:07.6Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Interfaces",
+              "Title": "Interfaces.csproj",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces.csproj",
               "RelativeDocumentMoniker": "Interfaces_DLL\\Interfaces.csproj",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Interfaces_DLL\\Interfaces.csproj",
               "RelativeToolTip": "Interfaces_DLL\\Interfaces.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-20T16:37:49.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:37:49.553Z"
             },
             {
               "$type": "Document",
@@ -135,8 +133,7 @@
               "RelativeToolTip": "Interfaces_DLL\\IVendedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:48:44.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:48:44.358Z"
             },
             {
               "$type": "Document",
@@ -148,8 +145,7 @@
               "RelativeToolTip": "Interfaces_DLL\\IMarca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:42:35.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:42:35.712Z"
             },
             {
               "$type": "Document",
@@ -161,8 +157,7 @@
               "RelativeToolTip": "Interfaces_DLL\\ICamapanha.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:38:00.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:38:00.296Z"
             },
             {
               "$type": "Document",
@@ -174,8 +169,7 @@
               "RelativeToolTip": "Interfaces_DLL\\IProduto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:30:03.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:30:03.346Z"
             },
             {
               "$type": "Document",
@@ -187,8 +181,7 @@
               "RelativeToolTip": "Enums_DLL\\DescontoType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:45:20.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T20:45:20.556Z"
             },
             {
               "$type": "Document",
@@ -200,8 +193,7 @@
               "RelativeToolTip": "Trabalh\\Trabalh.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-06T21:04:41.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T21:04:41.455Z"
             },
             {
               "$type": "Document",
@@ -213,8 +205,7 @@
               "RelativeToolTip": "Model_DLL\\Campanha.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAkwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:26:28.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T08:26:28.899Z"
             },
             {
               "$type": "Document",
@@ -226,8 +217,7 @@
               "RelativeToolTip": "Enums_DLL\\EUserType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T21:04:11.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T21:04:11.435Z"
             },
             {
               "$type": "Document",
@@ -243,29 +233,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Trabalh\\Program.cs",
               "RelativeDocumentMoniker": "Trabalh\\Program.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Trabalh\\Program.cs",
               "RelativeToolTip": "Trabalh\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEABAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwFkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T18:48:38.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\User.cs",
               "RelativeDocumentMoniker": "Model_DLL\\User.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\User.cs",
               "RelativeToolTip": "Model_DLL\\User.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAE0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T19:20:18.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T19:20:18.978Z"
             },
             {
               "$type": "Document",
@@ -277,34 +266,31 @@
               "RelativeToolTip": "Model_DLL\\Produto.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:36:55.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T08:36:55.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Extra.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\Extra.cs",
               "RelativeDocumentMoniker": "Model_DLL\\Extra.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\Extra.cs",
               "RelativeToolTip": "Model_DLL\\Extra.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAI4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:22:04.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:22:04.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\Cliente.cs",
               "RelativeDocumentMoniker": "Model_DLL\\Cliente.cs",
               "ToolTip": "C:\\Users\\pedro\\TrabalhoPOOVerdadeiro\\TrabalhoPOO\\Trabalho\\Model_DLL\\Cliente.cs",
               "RelativeToolTip": "Model_DLL\\Cliente.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwEcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:31:08.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T08:31:08.155Z"
             },
             {
               "$type": "Document",
@@ -316,8 +302,7 @@
               "RelativeToolTip": "Model_DLL\\JsonSerializerOptions.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T11:30:09.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T11:30:09.574Z"
             },
             {
               "$type": "Document",
@@ -329,8 +314,7 @@
               "RelativeToolTip": "Model_DLL\\Vendedor.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T16:50:12.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T16:50:12.52Z"
             },
             {
               "$type": "Document",
@@ -342,8 +326,7 @@
               "RelativeToolTip": "Model_DLL\\Marca.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:31:09.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T08:31:09.793Z"
             },
             {
               "$type": "Document",
@@ -355,8 +338,7 @@
               "RelativeToolTip": "Enums_DLL\\GarantiaType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:32:30.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T20:32:30.821Z"
             },
             {
               "$type": "Document",
@@ -368,8 +350,7 @@
               "RelativeToolTip": "Enums_DLL\\CategoriaProduto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T21:03:59.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T21:03:59.094Z"
             }
           ]
         }
