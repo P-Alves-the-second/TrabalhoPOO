@@ -1,2 +1,1 @@
-{"Nome":"adidas","IdMarca":2}
-{"Nome":"nike","IdMarca":1}
+{"Nome":"1","IdMarca":1}

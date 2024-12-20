@@ -45,14 +45,14 @@ namespace Model_DLL
                     {
                         Cliente cliente = (Cliente)UserList[entry.Key];                        
                         jsonUser = JsonSerializer.Serialize(cliente);
-                        Console.WriteLine($"{jsonUser}");
+                        //Console.WriteLine($"{jsonUser}");
                         File.AppendAllText(caminho, jsonUser + Environment.NewLine);
 
                     }
                     else
                     {
                         Vendedor vendedor = (Vendedor)UserList[entry.Key];
-                        Console.WriteLine($"{vendedor.Name}");
+                        //Console.WriteLine($"{vendedor.Name}");
                         jsonUser = JsonSerializer.Serialize(vendedor);
                         File.AppendAllText(caminho, jsonUser + Environment.NewLine);
                     }
@@ -75,7 +75,7 @@ namespace Model_DLL
                 {
                     Produto produto = (Produto)ProdutoList[entry.Key];
                     jsonProduto = JsonSerializer.Serialize(produto);
-                    File.AppendAllText(caminho, jsonProduto);
+                    File.AppendAllText(caminho, jsonProduto + Environment.NewLine);
                 }
                 catch (Exception ex)
                 {
@@ -94,7 +94,7 @@ namespace Model_DLL
                 {
                     Marca marca = (Marca)MarcaList[entry.Key];
                     jsonMarca = JsonSerializer.Serialize(marca);
-                    File.AppendAllText(caminho, jsonMarca+"\n");
+                    File.AppendAllText(caminho, jsonMarca + Environment.NewLine);
                 }
                 catch (Exception ex)
                 {
@@ -159,7 +159,7 @@ namespace Model_DLL
             catch (Exception ex)
             {
                 Console.WriteLine("Erro ao carregar dados(Produto): " + ex.Message);
-                return null;
+                return ProductList;
             }
             return ProductList;
         }
@@ -209,5 +209,31 @@ namespace Model_DLL
                 produto.MostrarDados(MarcaList);
             }
         }
-    }
+        public static void ApagarDados(int op) 
+        {
+            if(op==3 || op==0)File.Delete("./Marcas.txt");
+            if(op==2 || op==0)File.Delete("./Produtos.txt");
+            if(op==1 || op==0)File.Delete("./Users.txt");
+        }
+        public static int CalculateDifference(DateTime startDate, DateTime endDate, string unit)
+        {
+            switch (unit.ToLower())
+            {
+                case "days":
+                    return (endDate - startDate).Days;
+                case "months":
+                    int months = ((endDate.Year - startDate.Year) * 12) + endDate.Month - startDate.Month;
+                    if (endDate.Day < startDate.Day)
+                        months--; // Ajusta se o dia do mês de fim for menor que o de início.
+                    return months;
+                case "years":
+                    int years = endDate.Year - startDate.Year;
+                    if (endDate.Month < startDate.Month ||
+                       (endDate.Month == startDate.Month && endDate.Day < startDate.Day))
+                        years--; // Ajusta se ainda não alcançou o aniversário completo.
+                    return years;
+                default:
+                    throw new ArgumentException("Unidade inválida. Use 'days', 'months' ou 'years'.");
+            }
+        }
 }

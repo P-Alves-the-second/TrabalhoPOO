@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -37,18 +38,39 @@ namespace Model_DLL
             }
         }
 
-        public int Buy(Hashtable ProductList,Hashtable VendedorList,int productid) 
+        public int Buy(Hashtable ProductList,Hashtable VendedorList,Hashtable CampanhaList,int productid) 
         {
             Produto product = (Produto)ProductList[productid];
+            Console.WriteLine($"{product.VendedorId}");
+            Console.ReadLine();
             Vendedor vendedor = (Vendedor)VendedorList[product.VendedorId];
 
             if (product.Stock <= 0) return 2;
-            if (this.Wallet < product.Price)return 3;
-            product.DataCompra = DateTime.Now;
 
-            this.Wallet -= product.Price;
-            //this.compras.Add(product.ProductId);
-            vendedor.addCash(product.Price);
+            if (product.CampanhaId != -1)
+            {
+                double newprice;
+                Campanha campanha = (Campanha)CampanhaList[product.CampanhaId];
+                if (campanha.DescontoType == DescontoType.valor) newprice = product.Price - campanha.Desconto;
+                else newprice = product.Price * (campanha.Desconto / 100);
+                if (this.Wallet < newprice) return 3;
+                Console.WriteLine("Desconto de campanha aplicado");
+                product.DataCompra = DateTime.Now;
+
+                this.Wallet -= product.Price;
+                //this.compras.Add(product.ProductId);
+                vendedor.addCash(product.Price);
+
+            }
+            else
+            {
+                if (this.Wallet < product.Price) return 3;
+                product.DataCompra = DateTime.Now;
+
+                this.Wallet -= product.Price;
+                //this.compras.Add(product.ProductId);
+                vendedor.addCash(product.Price);
+            }
             return 1;     
         }
     }

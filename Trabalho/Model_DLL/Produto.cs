@@ -12,7 +12,7 @@ namespace Model_DLL
     {
         private int vendedorid {  get; set; }
         private int productid {  get; set; }
-
+        private int campanhaid {  get; set; }
         private int marcaid {  get; set; }
         private double price {  get; set; }
         private string nome { get; set; }
@@ -25,6 +25,8 @@ namespace Model_DLL
         private CategoriaProduto categoria {  get; set; }
 
         private GarantiaType garantiatype { get; set; }
+
+        
 
         public int VendedorId 
         {
@@ -65,6 +67,7 @@ namespace Model_DLL
             set => stock = value;
         }
 
+
         public CategoriaProduto Categoria 
         {
             get => categoria;
@@ -88,13 +91,10 @@ namespace Model_DLL
             get => garantiatype;
             set => garantiatype = value;
         }
-
-        public Marca Marca
+        public int CampanhaId
         {
-            get => default;
-            set
-            {
-            }
+            get => campanhaid;
+            set => campanhaid = value;
         }
 
         public Produto(int vendedorid, int productid,int marcaid, double price, string nome, string descricao, int stock, CategoriaProduto categoria, int garantia ,GarantiaType garantiaType)
@@ -109,12 +109,23 @@ namespace Model_DLL
             this.categoria = categoria;
             this.garantia = garantia;
             this.garantiatype = garantiaType;
+            this.campanhaid = -1;
         }
 
         public void MostrarDados(Hashtable MarcaList) 
         {
             Marca marca = (Marca)MarcaList[this.marcaid];
             Console.WriteLine($"ID : {this.productid}\nProduto : {this.nome}\nTipo : {this.categoria}\nMarca : {marca.Nome}\nPreço : {this.price}\nDescrição : {this.descricao}");
+        }
+        public int ChecarGarantia() 
+        {
+            string s = "";
+            if (this.garantiatype == GarantiaType.Dia) s = "days";
+            else if (this.garantiatype == GarantiaType.Mes) s = "months";
+            else s = "years";
+            int aux = Extra.CalculateDifference(this.datacompra,DateTime.Now,s);
+            if (aux < this.garantia) return 1;
+            return 0;
         }
     }
 }
