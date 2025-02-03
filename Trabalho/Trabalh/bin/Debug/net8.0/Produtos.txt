@@ -1,1 +1,0 @@
-{"VendedorId":1,"ProductId":1,"MarcaId":1,"Price":333,"Nome":"POO","Descricao":"123123","Stock":12,"Categoria":1,"DataCompra":"0001-01-01T00:00:00","Garantia":22,"GarantiaType":2,"CampanhaId":-1}

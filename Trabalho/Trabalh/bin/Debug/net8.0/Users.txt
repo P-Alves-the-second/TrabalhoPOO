@@ -1,1 +1,0 @@
-{"Wallet":333,"Name":"12","Email":"vendedor","Password":"123","UserType":1,"IdUser":1}
