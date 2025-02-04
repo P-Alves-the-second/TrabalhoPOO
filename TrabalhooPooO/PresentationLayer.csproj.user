@@ -4,7 +4,16 @@
     <Compile Update="AdicionarMarca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="AdicionarDinheiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChecarGarantia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ComprarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdicionarCampanha.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TelaLogin.cs">

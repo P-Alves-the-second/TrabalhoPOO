@@ -1,2 +1,2 @@
-{"Wallet":0,"Name":"vend","Email":"vendedor","Password":"123","UserType":1,"IdUser":2}
-{"Wallet":0,"Name":"Pedro","Email":"pedroa","Password":"123","UserType":0,"IdUser":1}
+{"Products":[1],"Marcas":[],"Wallet":164,"Name":"vend","Email":"vendedor","Password":"123","UserType":1,"IdUser":2}
+{"Compras":[],"Wallet":158,"Name":"Pedro","Email":"pedroa","Password":"123","UserType":0,"IdUser":1}

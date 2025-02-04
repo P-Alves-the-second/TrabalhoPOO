@@ -1,0 +1,1 @@
+{"CampanhaId":0,"Nome":"Porra","Descricao":"arroP","Desconto":22,"DescontoType":1,"Produtos":[1]}

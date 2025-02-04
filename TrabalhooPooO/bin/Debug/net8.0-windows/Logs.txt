@@ -1,0 +1,28 @@
+04/02/2025 11:31:52 > Foi aberto o Menu
+04/02/2025 11:36:32 > Foi aberto o Menu
+04/02/2025 11:36:35 > Foi mostrado um perfil de utilizador
+04/02/2025 11:36:36 > Foram mostrados 0 produtos
+04/02/2025 11:58:37 > Foi aberta a Form1
+04/02/2025 11:58:44 > O utilizador fez login
+04/02/2025 11:58:44 > Foi aberto o Menu
+04/02/2025 12:00:43 > Foi aberta a Form1
+04/02/2025 12:00:48 > O utilizador fez login
+04/02/2025 12:00:48 > Foi aberto o Menu
+04/02/2025 12:00:52 > Foram mostradas 2 maarcas
+04/02/2025 21:58:41 > Foi aberta a Form1
+04/02/2025 21:58:49 > O utilizador fez login
+04/02/2025 21:58:49 > Foi aberto o Menu
+04/02/2025 21:59:01 > Foi aberta a Form1
+04/02/2025 21:59:09 > O utilizador fez login
+04/02/2025 21:59:09 > Foi aberto o Menu
+04/02/2025 21:59:18 > Foram mostrados 0 produtos
+04/02/2025 21:59:47 > Foi aberta a Form1
+04/02/2025 21:59:56 > O utilizador fez login
+04/02/2025 21:59:56 > Foi aberto o Menu
+04/02/2025 22:00:07 > Foi aberto a tela AdicionarProduto
+04/02/2025 22:02:16 > Utilizador adicionou um produto
+04/02/2025 22:02:16 > Produtos foram salvos
+04/02/2025 22:02:16 > Utilizadores foram salvos
+04/02/2025 22:02:40 > Foram mostrados 1 produtos
+04/02/2025 22:03:10 > Foram mostrados 1 produtos
+04/02/2025 22:03:23 > Foram mostradas 1 campanhas

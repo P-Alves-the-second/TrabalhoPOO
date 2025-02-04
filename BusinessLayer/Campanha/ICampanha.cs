@@ -17,6 +17,6 @@ namespace BusinessLayer
         double Desconto { get; set; }
         DescontoType DescontoType { get; set; }
         public int AdicionarProduto(Hashtable ProductList, int product);
-        public void MostrarDados(Hashtable ProductList);
+        public string MostrarDados(Hashtable ProductList);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using BusinessLayer;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,11 @@ namespace DataLayer
 {
     public static class Save
     {
-        public static void SaveData(User user, Produto produto, Marca marca, int op)
+        public static void SaveData(Hashtable UserList,User user, Produto produto, Marca marca,Campanha campanha, int op)
         {
-            string[] caminhos = { "./Users.txt", "./Produtos.txt", "./Marcas.txt" };
+            string[] caminhos = { "./Users.txt", "./Produtos.txt", "./Marcas.txt","./Campanhas.txt" };
             string json;
             string caminho = caminhos[op];
-
-            
             try
             {
                 switch (op)
@@ -24,15 +23,17 @@ namespace DataLayer
                     case 0:
                         if (user.UserType == EUserType.Cliente)
                         {
-                            json = JsonSerializer.Serialize(user);
+                            Cliente cliente = (Cliente)UserList[user.IdUser];
+                            json = JsonSerializer.Serialize(cliente);
                             //Console.WriteLine($"{jsonUser}");
                             File.AppendAllText(caminho, json + Environment.NewLine);
 
                         }
                         else
                         {
+                            Vendedor vendedor = (Vendedor)UserList[user.IdUser];
                             //Console.WriteLine($"{vendedor.Name}");
-                            json = JsonSerializer.Serialize(user);
+                            json = JsonSerializer.Serialize(vendedor);
                             File.AppendAllText(caminho, json + Environment.NewLine);
                         }
                         break;
@@ -42,6 +43,10 @@ namespace DataLayer
                         break;
                     case 2:
                         json = JsonSerializer.Serialize(marca);
+                        File.AppendAllText(caminho, json + Environment.NewLine);
+                        break;
+                    case 3:
+                        json = JsonSerializer.Serialize(campanha);
                         File.AppendAllText(caminho, json + Environment.NewLine);
                         break;
                 }

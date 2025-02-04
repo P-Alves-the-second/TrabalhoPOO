@@ -54,16 +54,16 @@ namespace BusinessLayer
         /// </summary>
         /// <param name="ProductList">Lista de produtos usados para mostrar as compras do cliente.</param>
         /// <param name="MarcaList">Lista de marcas usadas para mostrar informações adicionais (não utilizado no método atual).</param>
-        public override void MostrarDados(Hashtable ProductList, Hashtable MarcaList)
+        public override string MostrarDados(Hashtable ProductList, Hashtable MarcaList)
         {
-            base.MostrarDados(ProductList, MarcaList);
-            Console.WriteLine($"Tipo : Cliente ");
-            Console.WriteLine("Compras :");
+            string dadosBase = base.MostrarDados(ProductList, MarcaList);
+            string res = $"{dadosBase}\nTipo : Cliente \nCompras :\n";
             foreach (int i in this.compras)
             {
                 Produto produto = (Produto)ProductList[i];
-                Console.WriteLine($"Id : {produto.ProductId} Nome : {produto.Nome} Data : {produto.DataCompra}");
+                res += $"Id : {produto.ProductId} Nome : {produto.Nome} Data : {produto.DataCompra}";
             }
+            return res;
         }
 
         /// <summary>
@@ -82,8 +82,6 @@ namespace BusinessLayer
         public int Buy(Hashtable ProductList, Hashtable VendedorList, Hashtable CampanhaList, int productid)
         {
             Produto product = (Produto)ProductList[productid];
-            Console.WriteLine($"{product.VendedorId}");
-            Console.ReadLine();
             Vendedor vendedor = (Vendedor)VendedorList[product.VendedorId];
 
             if (product.Stock <= 0) return 2;
@@ -95,7 +93,6 @@ namespace BusinessLayer
                 if (campanha.DescontoType == DescontoType.valor) newprice = product.Price - campanha.Desconto;
                 else newprice = product.Price * (campanha.Desconto / 100);
                 if (this.Wallet < newprice) return 3;
-                Console.WriteLine("Desconto de campanha aplicado");
                 product.DataCompra = DateTime.Now;
 
                 this.Wallet -= product.Price;

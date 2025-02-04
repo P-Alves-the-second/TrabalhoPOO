@@ -57,23 +57,23 @@ namespace BusinessLayer
         /// </summary>
         /// <param name="ProductList">Lista de produtos carregados no sistema, usando o ID como chave.</param>
         /// <param name="MarcaList">Lista de marcas carregadas no sistema, usando o ID como chave.</param>
-        public override void MostrarDados(Hashtable ProductList, Hashtable MarcaList)
+        public override string MostrarDados(Hashtable ProductList, Hashtable MarcaList)
         {
-            base.MostrarDados(ProductList, MarcaList);
-            Console.WriteLine($"Tipo : Vendedor");
-            Console.WriteLine("Produtos : ");
-            Console.WriteLine("---");
-            foreach (int i in products)
+            string dadosBase = base.MostrarDados(ProductList, MarcaList);
+            string res = $"{dadosBase}\nTipo : Vendedor\nProdutos : \n---\n";
+
+            foreach (int i in this.products)
             {
                 Produto produto = (Produto)ProductList[i];
-                Console.WriteLine($"Id : {produto.ProductId}\nNome : {produto.Nome}");
+                res += $"Id : {produto.ProductId}\nNome : {produto.Nome}\n";
             }
             Console.WriteLine("---");
-            foreach (int i in marcas)
+            foreach (int i in this.marcas)
             {
                 Marca marca = (Marca)MarcaList[i];
-                Console.WriteLine($"Id : {marca.IdMarca}\nNome : {marca.Nome}");
+                res += $"Id : {marca.IdMarca}\nNome : {marca.Nome}\n";
             }
+            return res ;
         }
 
         /// <summary>

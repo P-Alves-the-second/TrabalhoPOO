@@ -173,7 +173,7 @@ namespace BusinessLayer
         public string MostrarDados(Hashtable MarcaList)
         {
             Marca marca = (Marca)MarcaList[this.marcaid];
-            return $"ID : {this.productid}\nProduto : {this.nome}\nTipo : {this.categoria}\nMarca : {marca.Nome}\nPreço : {this.price}\nDescrição : {this.descricao}\n==\n";
+            return $"ID : {this.productid}\nProduto : {this.nome}\nVendedor : {vendedorid}\nTipo : {this.categoria}\nMarca : {marca.Nome}\nPreço : {this.price}\nDescrição : {this.descricao}\n==\n";
         }
 
         /// <summary>

@@ -77,7 +77,7 @@
             button3.TabIndex = 4;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += this.button3_Click;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -87,6 +87,7 @@
             button4.TabIndex = 5;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // MostrarMarcasButton
             // 
@@ -96,6 +97,7 @@
             MostrarMarcasButton.TabIndex = 6;
             MostrarMarcasButton.Text = "Mostrar Marcas";
             MostrarMarcasButton.UseVisualStyleBackColor = true;
+            MostrarMarcasButton.Click += MostrarMarcasButton_Click;
             // 
             // MostrarCampanhasButton
             // 
@@ -105,6 +107,7 @@
             MostrarCampanhasButton.TabIndex = 7;
             MostrarCampanhasButton.Text = "Mostrar Campanhas";
             MostrarCampanhasButton.UseVisualStyleBackColor = true;
+            MostrarCampanhasButton.Click += MostrarCampanhasButton_Click;
             // 
             // SignOutButton
             // 
@@ -124,6 +127,7 @@
             ApagarDadosButton.TabIndex = 9;
             ApagarDadosButton.Text = "Apagar Dados";
             ApagarDadosButton.UseVisualStyleBackColor = true;
+            ApagarDadosButton.Click += ApagarDadosButton_Click;
             // 
             // Menu
             // 

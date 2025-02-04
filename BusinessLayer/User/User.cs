@@ -103,7 +103,7 @@ namespace BusinessLayer
         /// </summary>
         /// <param name="ProductList">Hashtable contendo os produtos.</param>
         /// <param name="MarcaList">Hashtable contendo as marcas.</param>
-        public virtual void MostrarDados(Hashtable ProductList, Hashtable MarcaList) { Console.WriteLine($"ID : {this.iduser}\nNome : {this.name}\nEmail : {this.email}\nSaldo : {this.wallet}"); }
+        public virtual string MostrarDados(Hashtable ProductList, Hashtable MarcaList) { return $"ID : {this.iduser}\nNome : {this.name}\nEmail : {this.email}\nSaldo : {this.wallet}"; }
 
 
         /// <summary>
@@ -129,38 +129,6 @@ namespace BusinessLayer
         public void addCash(double quantidade)
         {
             this.Wallet += quantidade;
-        }
-
-
-        /// <summary>
-        /// Salva os dados do utilizador em um arquivo de texto no formato JSON. Se o arquivo já existir, ele será sobrescrito.
-        /// </summary>
-        public void Save()
-        {
-            string caminho = "./Users.txt";
-            string jsonUser;
-            if (File.Exists(caminho)) File.Delete(caminho);
-            try
-            {
-                if (this.UserType == EUserType.Cliente)
-                {
-                    jsonUser = JsonSerializer.Serialize(this);
-                    //Console.WriteLine($"{jsonUser}");
-                    File.AppendAllText(caminho, jsonUser + Environment.NewLine);
-
-                }
-                else
-                {
-                    //Console.WriteLine($"{vendedor.Name}");
-                    jsonUser = JsonSerializer.Serialize(this);
-                    File.AppendAllText(caminho, jsonUser + Environment.NewLine);
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Erro ao salvar dados(User): " + ex.Message);
-            }
-
         }
     }
 }

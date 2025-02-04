@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using DataLayer;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace PresentationLayer
         public AdicionarMarca()
         {
             InitializeComponent();
+            Logging.Log("Foi aberto a tela " + this.Name);
         }
 
         private void CancelarButton_Click(object sender, EventArgs e) 
@@ -41,12 +43,16 @@ namespace PresentationLayer
             Marca marcanova = new Marca(nome,CurrentMarcaId);
 
             MarcaList.Add(marcanova.IdMarca,marcanova);
+
+            Logging.Log("Utilizador adicionou uma marca");
+
             if (File.Exists("./Marcas.txt")) File.Delete("./Marcas.txt");
             foreach(DictionaryEntry entry in MarcaList) 
             {
                 Marca marca = (Marca)MarcaList[entry.Key];
-                DataLayer.Save.SaveData(null,null,marca,2);
+                DataLayer.Save.SaveData(null,null,null,marca,null,2);
             }
+            Logging.Log("Marcas foram salvas");
         }
     }
 }

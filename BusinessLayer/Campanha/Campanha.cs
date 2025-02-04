@@ -18,7 +18,7 @@ namespace BusinessLayer
         /// <summary>
         /// Lista de IDs dos produtos associados à campanha.
         /// </summary>
-        public List<int> produtos { get; set; }
+        private List<int> produtos { get; set; }
 
         /// <summary>
         /// ID único da campanha.
@@ -99,6 +99,11 @@ namespace BusinessLayer
             set => produtos = value;
         }
 
+        public Campanha()
+        {
+            this.Produtos = new List<int>(); // Inicializa a lista de produtos
+        }
+
         /// <summary>
         /// Construtor da classe <see cref="Campanha"/> que inicializa uma nova campanha com os parâmetros fornecidos.
         /// </summary>
@@ -107,12 +112,13 @@ namespace BusinessLayer
         /// <param name="Descricao">Descrição da campanha.</param>
         /// <param name="Desconto">Valor do desconto.</param>
         /// <param name="descontoType">Tipo de desconto (porcentagem ou valor fixo).</param>
-        public Campanha(int CampanhaID, string Name, string Descricao, double Desconto, DescontoType descontoType)
+        public Campanha(int CampanhaId, string Name, string Descricao, double Desconto, DescontoType DescontoType)
         {
-            this.campanhaid = CampanhaID;
+            this.campanhaid = CampanhaId;
             this.nome = Name;
             this.descricao = Descricao;
-            this.descontotype = descontoType;
+            this.desconto = Desconto;
+            this.descontotype = DescontoType;
             this.produtos = new List<int>();
         }
 
@@ -140,18 +146,20 @@ namespace BusinessLayer
         /// Exibe os detalhes da campanha, incluindo os produtos associados a ela.
         /// </summary>
         /// <param name="ProductList">Lista de produtos utilizados para mostrar os dados dos produtos associados.</param>
-        public void MostrarDados(Hashtable ProductList)
+        public string MostrarDados(Hashtable ProductList)
         {
-            Console.WriteLine($"Id : {this.CampanhaId}\nNome : {this.nome}\nDescição : {this.descricao}");
-            if (this.descontotype == DescontoType.porcentagem) Console.WriteLine($"Desconto : {this.desconto}%");
-            else Console.WriteLine($" Desconto {this.desconto}$");
-            Console.WriteLine("Produtos : ");
+            string str = "";
+            str += $"Id : {this.CampanhaId}\nNome : {this.nome}\nDescição : {this.descricao}\n";
+            if (this.descontotype == DescontoType.porcentagem) str += $"Desconto : {this.desconto}%\n";
+            else str += $" Desconto {this.desconto}$\n";
+            str += "Produtos : \n";
             foreach (int i in produtos)
             {
-                Console.WriteLine("----");
+                str += "----\n";
                 Produto produto = (Produto)ProductList[i];
-                Console.WriteLine($"Id : {produto.ProductId}\nNome :{produto.Nome}");
+                if(produto!=null)str += $"Id : {produto.ProductId}\nNome :{produto.Nome}";
             }
+            return str;
         }
     }
 }

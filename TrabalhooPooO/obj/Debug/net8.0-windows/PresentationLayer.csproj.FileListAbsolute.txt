@@ -23,3 +23,7 @@ C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\Presentation
 C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.Menu.resources
 C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\TrabalhooPooO.TelaLogin.resources
 C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.AdicionarMarca.resources
+C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.AdicionarDinheiro.resources
+C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.ComprarProduto.resources
+C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.AdicionarCampanha.resources
+C:\Users\pedro\TrabalhooPooO\TrabalhooPooO\obj\Debug\net8.0-windows\PresentationLayer.ChecarGarantia.resources

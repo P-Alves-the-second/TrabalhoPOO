@@ -11,6 +11,6 @@ namespace BusinessLayer
         string Nome { get; set; }
         int IdMarca { get; set; }
         List<int> Products { get; set; }
-        public void MostrarDados();
+        public string MostrarDados();
     }
 }

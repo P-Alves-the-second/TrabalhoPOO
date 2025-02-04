@@ -16,7 +16,7 @@ namespace DataLayer
         public static Hashtable LoadData(int op)
         {
             Hashtable List = new Hashtable();
-            string[] caminhos = { "./Users.txt", "./Produtos.txt", "./Marcas.txt" };
+            string[] caminhos = { "./Users.txt", "./Produtos.txt", "./Marcas.txt","./Campanhas.txt" };
             var options = new JsonSerializerOptions
             {
                 Converters = { new UserConverter() },
@@ -35,7 +35,6 @@ namespace DataLayer
                         {
                             case 0:
                                 BusinessLayer.User user = JsonSerializer.Deserialize<BusinessLayer.User>(str, options);
-                                Console.WriteLine($"{str}");
                                 List.Add(user.IdUser, user);
                                 break;
                             case 1:
@@ -46,6 +45,10 @@ namespace DataLayer
                                 Marca marca = JsonSerializer.Deserialize<Marca>(str, options);
                                 List.Add(marca.IdMarca, marca);
                                 break;
+                            case 3:
+                                Campanha campanha = JsonSerializer.Deserialize<Campanha>(str, options);
+                                List.Add(campanha.CampanhaId, campanha);
+                                break;
                         }
                     }
                 }
@@ -53,6 +56,7 @@ namespace DataLayer
             catch (Exception ex)
             {
                 Console.WriteLine("Erro ao carregar dados(User): " + ex.Message);
+                throw;
                 return null;
             }
             return List;

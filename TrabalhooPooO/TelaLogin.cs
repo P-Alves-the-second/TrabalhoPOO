@@ -12,6 +12,8 @@ namespace TrabalhooPooO
         public TelaLogin()
         {
             InitializeComponent();
+
+            Logging.Log("Foi aberta a " + this.Name);
         }
         /// <summary>
         /// Variável que armazena o usuário atualmente logado. -1 significa nenhum usuário logado.
@@ -69,6 +71,7 @@ namespace TrabalhooPooO
                 }
                 else 
                 {
+                    Logging.Log("O utilizador fez login");
                     this.Hide();
                     Menu form = new Menu(CurrentUserId,CurrentUser);
                     form.StartPosition = FormStartPosition.Manual;
@@ -112,8 +115,10 @@ namespace TrabalhooPooO
                 foreach (DictionaryEntry entry in UserList)
                 {
                     User user = (User)UserList[entry.Key];
-                    DataLayer.Save.SaveData(user,null,null,0);
+                    DataLayer.Save.SaveData(UserList,user,null,null,null,0);
                 }
+
+                Logging.Log("Um utilizador foi registrado");
 
                 LogInButton.Visible = true;
                 RegisterButton.Visible = true;

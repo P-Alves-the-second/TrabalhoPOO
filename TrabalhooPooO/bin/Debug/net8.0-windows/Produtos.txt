@@ -1,2 +1,1 @@
-{"VendedorId":2,"ProductId":-1,"MarcaId":1,"Price":11,"Nome":"Porra","Descricao":"wefd","Stock":22,"Categoria":0,"DataCompra":"0001-01-01T00:00:00","Garantia":33,"GarantiaType":0,"CampanhaId":-1}
-{"VendedorId":2,"ProductId":0,"MarcaId":1,"Price":1120,"Nome":"produto2","Descricao":"ppppppp","Stock":232,"Categoria":3,"DataCompra":"0001-01-01T00:00:00","Garantia":333,"GarantiaType":0,"CampanhaId":-1}
+{"VendedorId":2,"ProductId":1,"MarcaId":1,"Price":10,"Nome":"Produto","Descricao":"otudorP","Stock":110,"Categoria":0,"DataCompra":"0001-01-01T00:00:00","Garantia":3,"GarantiaType":0,"CampanhaId":-1}

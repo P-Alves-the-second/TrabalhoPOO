@@ -61,9 +61,9 @@ namespace BusinessLayer
         /// <summary>
         /// Exibe os dados da marca no console, incluindo seu ID e nome.
         /// </summary>
-        public void MostrarDados()
+        public string MostrarDados()
         {
-            Console.WriteLine($"Id : {this.idmarca}\nNome : {this.nome}");
+            return $"Id : {this.idmarca}\nNome : {this.nome}\n";
         }
 
     }
