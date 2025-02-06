@@ -41,6 +41,7 @@ namespace PresentationLayer
         Hashtable ProductList = new Hashtable();
         Hashtable MarcaList = new Hashtable();
         Hashtable CampanhaList = new Hashtable();
+        #region Menu
         public Menu(int currentuserid, int currentuser)
         {
             InitializeComponent();
@@ -69,6 +70,8 @@ namespace PresentationLayer
             }
             DataLayer.Logging.Log("Foi aberto o " + this.Name);
         }
+        #endregion
+        #region Mostrar Perfil
         private void label1_Click(object sender, EventArgs e)
         {
             UserList = DataLayer.Load.LoadData(0);
@@ -92,19 +95,21 @@ namespace PresentationLayer
             MessageBox.Show(str);
             Logging.Log("Foi mostrado um perfil de utilizador");
         }
-
+        #endregion
         private void Form2_Load(object sender, EventArgs e)
         {
 
         }
 
+        #region Sign Out
         private void SignOutButton_Click(object sender, EventArgs e)
         {
             this.Close();
             Logging.Log("O utilizador saiu da conta");
             Application.Restart();
         }
-
+        #endregion
+        #region Mostrar Produtos
         private void Button1_Click(object sender, EventArgs e)
         {
             ProductList = DataLayer.Load.LoadData(1);
@@ -126,7 +131,7 @@ namespace PresentationLayer
 
             MessageBox.Show(data);
         }
-
+        #endregion
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -134,6 +139,7 @@ namespace PresentationLayer
 
         private void button2_Click(object sender, EventArgs e)
         {
+            #region Adicionar Produto
             if (CurrentUserType == EUserType.Vendedor)
             {
 
@@ -149,6 +155,8 @@ namespace PresentationLayer
 
                 AdicionarProduto.FormClosed += (s, args) => this.Show();
             }
+            #endregion
+            #region Comprar Produto
             else
             {
                 UserList = DataLayer.Load.LoadData(0);
@@ -164,10 +172,12 @@ namespace PresentationLayer
 
                 ComprarProduto.FormClosed += (s, args) => this.Show();
             }
+            #endregion
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            #region Adicionar Marca
             if (CurrentUserType == EUserType.Vendedor)
             {
                 Form AdicionarMarca = new AdicionarMarca();
@@ -180,6 +190,8 @@ namespace PresentationLayer
 
                 AdicionarMarca.FormClosed += (s, args) => this.Show();
             }
+            #endregion
+            #region Adicionar Dinheiro
             else
             {
                 Form AdicionarDinheiro = new AdicionarDinheiro(CurrentUser);
@@ -192,10 +204,12 @@ namespace PresentationLayer
 
                 AdicionarDinheiro.FormClosed += (s, args) => this.Show();
             }
+            #endregion
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            #region Adicionar Campanha
             if (CurrentUserType == EUserType.Vendedor)
             {
                 Form AdicionarCampanha = new AdicionarCampanha();
@@ -208,6 +222,8 @@ namespace PresentationLayer
 
                 AdicionarCampanha.FormClosed += (s, args) => this.Show();
             }
+            #endregion
+            #region Checar Garantia
             else
             {
                 Form ChecarGarantia = new ChecarGarantia();
@@ -220,8 +236,10 @@ namespace PresentationLayer
 
                 ChecarGarantia.FormClosed += (s, args) => this.Show();
             }
+            #endregion
         }
 
+        #region Mostrar Marcas
         private void MostrarMarcasButton_Click(object sender, EventArgs e)
         {
             string str = "";
@@ -241,7 +259,8 @@ namespace PresentationLayer
             Logging.Log($"Foram mostradas {i} marcas");
 
         }
-
+        #endregion
+        #region Mostrar Campanhas
         private void MostrarCampanhasButton_Click(object sender, EventArgs e)
         {
             int i = 0;
@@ -259,10 +278,20 @@ namespace PresentationLayer
             MessageBox.Show(str);
             Logging.Log($"Foram mostradas {i} campanhas");
         }
-
+        #endregion
+        #region Apagar Dados
         private void ApagarDadosButton_Click(object sender, EventArgs e)
         {
-
+            if(DialogResult.Yes==MessageBox.Show("Tem certeza que deseja apagar os dados?","Apagar Dados", MessageBoxButtons.YesNo)) 
+            {
+                File.Delete("./Users.txt");
+                File.Delete("./Produtos.txt");
+                File.Delete("./Marcas.txt");
+                File.Delete("./Campanhas.txt");
+                Logging.Log("Os dados foram apagados");
+                Application.Restart();
+            }
         }
+        #endregion
     }
 }

@@ -26,3 +26,7 @@
 04/02/2025 22:02:40 > Foram mostrados 1 produtos
 04/02/2025 22:03:10 > Foram mostrados 1 produtos
 04/02/2025 22:03:23 > Foram mostradas 1 campanhas
+06/02/2025 14:01:15 > Foi aberta a Form1
+06/02/2025 14:01:20 > O utilizador fez login
+06/02/2025 14:01:20 > Foi aberto o Menu
+06/02/2025 14:01:24 > Foi aberta a Form1

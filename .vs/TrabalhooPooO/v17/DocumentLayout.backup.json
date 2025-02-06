@@ -1,0 +1,726 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedro\\TrabalhooPooO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\campanha\\campanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\campanha\\campanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\campanha\\icampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\campanha\\icampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\marca\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\marca\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\marca\\imarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\marca\\imarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\comprarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\comprarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|C:\\Users\\pedro\\TrabalhooPooO\\trabalhoopooo\\comprarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\comprarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\checargarantia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\checargarantia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionardinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionardinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarcampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarcampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\datalayer\\save\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\save\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\datalayer\\save\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\save\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\cliente\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\cliente\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|C:\\Users\\pedro\\TrabalhooPooO\\trabalhoopooo\\checargarantia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\checargarantia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\comprarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\comprarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarcampanha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarcampanha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|C:\\Users\\pedro\\TrabalhooPooO\\trabalhoopooo\\adicionarcampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarcampanha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\datalayer\\load\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\load\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\produto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\produto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\datalayer\\options\\jsonserializeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB3588F-61BF-4F82-B64F-4FDFF2CC2C05}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\options\\jsonserializeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionardinheiro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionardinheiro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|C:\\Users\\pedro\\TrabalhooPooO\\trabalhoopooo\\adicionardinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionardinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\vendedor\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\vendedor\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\vendedor\\ivendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\vendedor\\ivendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\cliente\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\cliente\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarmarca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarmarca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\adicionarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\adicionarproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\produto\\categoriaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\produto\\categoriaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\trabalhoopooo\\telalogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83162CA-DAD5-47BA-AB03-7526AF7B483E}|TrabalhooPooO\\PresentationLayer.csproj|solutionrelative:trabalhoopooo\\telalogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\campanha\\garantiatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\campanha\\garantiatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\campanha\\descontotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\campanha\\descontotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\produto\\iproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\produto\\iproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\pedro\\trabalhoopooo\\businesslayer\\extra\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7532E3BD-00A2-4818-AFE2-8DBD207DE398}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\extra\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\Menu.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\Menu.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:54:51.961Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdicionarProduto.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarProduto.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:39:35.087Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TelaLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\TelaLogin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:37:05.68Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Logging.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Save\\Logging.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Save\\Logging.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Save\\Logging.cs",
+              "RelativeToolTip": "DataLayer\\Save\\Logging.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:22:46.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChecarGarantia.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ChecarGarantia.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\ChecarGarantia.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ChecarGarantia.cs",
+              "RelativeToolTip": "TrabalhooPooO\\ChecarGarantia.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwC0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:43:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdicionarCampanha.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarCampanha.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarCampanha.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAvwJ0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:31:27.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdicionarCampanha.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarCampanha.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarCampanha.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswGAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:31:17.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ComprarProduto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\ComprarProduto.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\ComprarProduto.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T15:16:34.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComprarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\ComprarProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.cs",
+              "RelativeToolTip": "TrabalhooPooO\\ComprarProduto.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T15:13:01.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdicionarDinheiro.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarDinheiro.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarDinheiro.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA6wDAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:49:09.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdicionarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:05:52.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\Menu.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.cs",
+              "RelativeToolTip": "TrabalhooPooO\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:55:48.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Save.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Save\\Save.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Save\\Save.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Save\\Save.cs",
+              "RelativeToolTip": "DataLayer\\Save\\Save.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:15:47.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Load.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Load\\Load.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Load\\Load.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Load\\Load.cs",
+              "RelativeToolTip": "DataLayer\\Load\\Load.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:17:08.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdicionarMarca.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarMarca.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarMarca.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarMarca.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarMarca.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T20:02:49.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TelaLogin.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.cs",
+              "RelativeToolTip": "TrabalhooPooO\\TelaLogin.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAEkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:06:49.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdicionarDinheiro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarDinheiro.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarDinheiro.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwD4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:52:52.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\User\\User.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\User\\User.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\User\\User.cs",
+              "RelativeToolTip": "BusinessLayer\\User\\User.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwGkAAAC2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:05:46.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Cliente\\Cliente.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Cliente\\Cliente.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Cliente\\Cliente.cs",
+              "RelativeToolTip": "BusinessLayer\\Cliente\\Cliente.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwF8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:49:58.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Vendedor\\Vendedor.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Vendedor\\Vendedor.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Vendedor\\Vendedor.cs",
+              "RelativeToolTip": "BusinessLayer\\Vendedor\\Vendedor.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:25:40.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JsonSerializerOptions.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Options\\JsonSerializerOptions.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Options\\JsonSerializerOptions.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\DataLayer\\Options\\JsonSerializerOptions.cs",
+              "RelativeToolTip": "DataLayer\\Options\\JsonSerializerOptions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:17:19.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IVendedor.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Vendedor\\IVendedor.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Vendedor\\IVendedor.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Vendedor\\IVendedor.cs",
+              "RelativeToolTip": "BusinessLayer\\Vendedor\\IVendedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:00:05.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\Produto.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Produto\\Produto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\Produto.cs",
+              "RelativeToolTip": "BusinessLayer\\Produto\\Produto.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAK8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:52:39.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICliente.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Cliente\\ICliente.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Cliente\\ICliente.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Cliente\\ICliente.cs",
+              "RelativeToolTip": "BusinessLayer\\Cliente\\ICliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:50:28.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdicionarMarca.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarMarca.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarMarca.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarMarca.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarMarca.Designer.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:58:40.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\Menu.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Menu.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\Menu.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:36:02.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdicionarProduto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarProduto.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarProduto.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarProduto.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAIAwwLUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:09:09.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMarca.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Marca\\IMarca.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Marca\\IMarca.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Marca\\IMarca.cs",
+              "RelativeToolTip": "BusinessLayer\\Marca\\IMarca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:07:11.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IProduto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\IProduto.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Produto\\IProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\IProduto.cs",
+              "RelativeToolTip": "BusinessLayer\\Produto\\IProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:45:04.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Program.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\Program.cs",
+              "RelativeToolTip": "TrabalhooPooO\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:16:19.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Marca\\Marca.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Marca\\Marca.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Marca\\Marca.cs",
+              "RelativeToolTip": "BusinessLayer\\Marca\\Marca.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv0EAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:51:37.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TelaLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.Designer.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\TelaLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\TelaLogin.Designer.cs",
+              "RelativeToolTip": "TrabalhooPooO\\TelaLogin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:21:06.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PresentationLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\PresentationLayer.csproj",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\PresentationLayer.csproj",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\PresentationLayer.csproj",
+              "RelativeToolTip": "TrabalhooPooO\\PresentationLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-31T17:21:15.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CategoriaProduto.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\CategoriaProduto.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Produto\\CategoriaProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Produto\\CategoriaProduto.cs",
+              "RelativeToolTip": "BusinessLayer\\Produto\\CategoriaProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:53:00.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Extra.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Extra\\Extra.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Extra\\Extra.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Extra\\Extra.cs",
+              "RelativeToolTip": "BusinessLayer\\Extra\\Extra.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:51:01.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICampanha.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\ICampanha.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Campanha\\ICampanha.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\ICampanha.cs",
+              "RelativeToolTip": "BusinessLayer\\Campanha\\ICampanha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:49:28.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GarantiaType.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\GarantiaType.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Campanha\\GarantiaType.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\GarantiaType.cs",
+              "RelativeToolTip": "BusinessLayer\\Campanha\\GarantiaType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:49:06.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DescontoType.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\DescontoType.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Campanha\\DescontoType.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\DescontoType.cs",
+              "RelativeToolTip": "BusinessLayer\\Campanha\\DescontoType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:48:43.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Campanha.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\Campanha.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Campanha\\Campanha.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\BusinessLayer\\Campanha\\Campanha.cs",
+              "RelativeToolTip": "BusinessLayer\\Campanha\\Campanha.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAUwJ0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:48:12.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChecarGarantia.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ChecarGarantia.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\ChecarGarantia.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ChecarGarantia.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\ChecarGarantia.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:40:54.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdicionarCampanha.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarCampanha.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarCampanha.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarCampanha.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T19:22:39.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComprarProduto.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\ComprarProduto.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\ComprarProduto.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\ComprarProduto.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T15:12:51.896Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdicionarDinheiro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.cs",
+              "RelativeDocumentMoniker": "TrabalhooPooO\\AdicionarDinheiro.cs",
+              "ToolTip": "C:\\Users\\pedro\\TrabalhooPooO\\TrabalhooPooO\\AdicionarDinheiro.cs [Projeto]",
+              "RelativeToolTip": "TrabalhooPooO\\AdicionarDinheiro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T23:55:56.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
